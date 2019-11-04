@@ -3,7 +3,7 @@
 ## Set environments
 
 ```
-APIKEY=dI_zq3flnS-c467NgdHqxJqkMdqTd5JMhN_fkukIT2u8
+APIKEY=
 URL=https://gateway-fra.watsonplatform.net/discovery/api
 CONF_FILE=configurations.json
 ```
