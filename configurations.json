@@ -1,0 +1,619 @@
+[
+  {
+    "configuration_id": "f1005ae9-385b-4ced-9f3b-d2bf9f9e2a8b",
+    "name": "Communiqués de presse IBM Configuration 49106xq0ry",
+    "created": "2019-10-23T14:46:31.094Z",
+    "updated": "2019-10-23T14:46:31.094Z",
+    "description": "",
+    "conversions": {
+      "html": {
+        "exclude_content": {
+          "xpaths": []
+        },
+        "exclude_tag_attributes": [
+          "EVENT_ACTIONS"
+        ],
+        "exclude_tags_completely": [
+          "script",
+          "sup"
+        ],
+        "exclude_tags_keep_content": [
+          "font",
+          "em",
+          "span"
+        ],
+        "keep_content": {
+          "xpaths": []
+        }
+      },
+      "json_normalizations": [],
+      "pdf": {
+        "heading": {
+          "fonts": [
+            {
+              "level": 1,
+              "max_size": 80,
+              "min_size": 24
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": true,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": true,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 11
+            }
+          ]
+        }
+      },
+      "word": {
+        "heading": {
+          "fonts": [
+            {
+              "bold": false,
+              "italic": false,
+              "level": 1,
+              "min_size": 24
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 2,
+              "max_size": 23,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 17,
+              "min_size": 14
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 13
+            }
+          ],
+          "styles": [
+            {
+              "level": 1,
+              "names": [
+                "pullout heading",
+                "pulloutheading",
+                "header"
+              ]
+            },
+            {
+              "level": 2,
+              "names": [
+                "subtitle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "enrichments": [
+      {
+        "destination_field": "enriched_text",
+        "enrichment": "natural_language_understanding",
+        "options": {
+          "features": {
+            "categories": {},
+            "concepts": {
+              "limit": 8
+            },
+            "entities": {
+              "emotion": false,
+              "limit": 50,
+              "sentiment": true
+            },
+            "sentiment": {
+              "document": true
+            }
+          }
+        },
+        "source_field": "text"
+      }
+    ],
+    "normalizations": []
+  },
+  {
+    "configuration_id": "e62cc4d7-9202-43c6-929b-bf8de3b363e3",
+    "name": "Default Configuration",
+    "created": "2019-10-22T12:31:02.525Z",
+    "updated": "2019-10-22T12:31:02.525Z",
+    "description": "The configuration used by default when creating a new collection without specifying a configuration_id.",
+    "conversions": {
+      "html": {
+        "exclude_content": {
+          "xpaths": []
+        },
+        "exclude_tag_attributes": [
+          "EVENT_ACTIONS"
+        ],
+        "exclude_tags_completely": [
+          "script",
+          "sup"
+        ],
+        "exclude_tags_keep_content": [
+          "font",
+          "em",
+          "span"
+        ],
+        "keep_content": {
+          "xpaths": []
+        }
+      },
+      "json_normalizations": [],
+      "pdf": {
+        "heading": {
+          "fonts": [
+            {
+              "level": 1,
+              "max_size": 80,
+              "min_size": 24
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": true,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": true,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 11
+            }
+          ]
+        }
+      },
+      "word": {
+        "heading": {
+          "fonts": [
+            {
+              "bold": false,
+              "italic": false,
+              "level": 1,
+              "min_size": 24
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 2,
+              "max_size": 23,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 17,
+              "min_size": 14
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 13
+            }
+          ],
+          "styles": [
+            {
+              "level": 1,
+              "names": [
+                "pullout heading",
+                "pulloutheading",
+                "header"
+              ]
+            },
+            {
+              "level": 2,
+              "names": [
+                "subtitle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "enrichments": [
+      {
+        "destination_field": "enriched_text",
+        "enrichment": "natural_language_understanding",
+        "options": {
+          "features": {
+            "categories": {},
+            "concepts": {
+              "limit": 8
+            },
+            "entities": {
+              "emotion": false,
+              "limit": 50,
+              "sentiment": true
+            },
+            "sentiment": {
+              "document": true
+            }
+          }
+        },
+        "source_field": "text"
+      }
+    ],
+    "normalizations": []
+  },
+  {
+    "configuration_id": "d9d1aa00-78af-4ad2-a7d6-c88b19751c4f",
+    "name": "Default Contract Configuration",
+    "created": "2019-10-22T12:31:03.867Z",
+    "updated": "2019-10-22T12:31:03.867Z",
+    "description": "Extract party, nature, and category from elements in PDFs.",
+    "conversions": {
+      "html": {
+        "exclude_tags_completely": [],
+        "exclude_tags_keep_content": []
+      }
+    },
+    "enrichments": [
+      {
+        "destination_field": "enriched_html_elements",
+        "enrichment": "elements",
+        "options": {
+          "model": "contract"
+        },
+        "source_field": "html"
+      }
+    ]
+  },
+  {
+    "configuration_id": "326dc265-08db-4cd9-8ffd-948a1cf19c09",
+    "name": "Test Annotation + Bot Configuration kpwk6zmemv",
+    "created": "2019-10-25T09:52:56.225Z",
+    "updated": "2019-10-25T09:52:56.225Z",
+    "description": "",
+    "conversions": {
+      "html": {
+        "exclude_content": {
+          "xpaths": []
+        },
+        "exclude_tag_attributes": [
+          "EVENT_ACTIONS"
+        ],
+        "exclude_tags_completely": [
+          "script",
+          "sup"
+        ],
+        "exclude_tags_keep_content": [
+          "font",
+          "em",
+          "span"
+        ],
+        "keep_content": {
+          "xpaths": []
+        }
+      },
+      "json_normalizations": [],
+      "pdf": {
+        "heading": {
+          "fonts": [
+            {
+              "level": 1,
+              "max_size": 80,
+              "min_size": 24
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": true,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": true,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 11
+            }
+          ]
+        }
+      },
+      "word": {
+        "heading": {
+          "fonts": [
+            {
+              "bold": false,
+              "italic": false,
+              "level": 1,
+              "min_size": 24
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 2,
+              "max_size": 23,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 17,
+              "min_size": 14
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 13
+            }
+          ],
+          "styles": [
+            {
+              "level": 1,
+              "names": [
+                "pullout heading",
+                "pulloutheading",
+                "header"
+              ]
+            },
+            {
+              "level": 2,
+              "names": [
+                "subtitle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "enrichments": [
+      {
+        "destination_field": "enriched_text",
+        "enrichment": "natural_language_understanding",
+        "options": {
+          "features": {
+            "categories": {},
+            "concepts": {
+              "limit": 8
+            },
+            "entities": {
+              "emotion": false,
+              "limit": 50,
+              "sentiment": true
+            },
+            "sentiment": {
+              "document": true
+            }
+          }
+        },
+        "source_field": "text"
+      }
+    ],
+    "normalizations": []
+  },
+  {
+    "configuration_id": "684919a2-a93a-44e4-9da6-f09032a08ce9",
+    "name": "Test Bot Configuration v5lk57y90z",
+    "created": "2019-10-22T12:31:11.546Z",
+    "updated": "2019-10-28T14:06:32.493Z",
+    "description": "",
+    "conversions": {
+      "html": {
+        "exclude_content": {
+          "xpaths": []
+        },
+        "exclude_tag_attributes": [
+          "EVENT_ACTIONS"
+        ],
+        "exclude_tags_completely": [
+          "script",
+          "sup"
+        ],
+        "exclude_tags_keep_content": [
+          "font",
+          "em",
+          "span"
+        ],
+        "keep_content": {
+          "xpaths": []
+        }
+      },
+      "json_normalizations": [],
+      "pdf": {
+        "heading": {
+          "fonts": [
+            {
+              "level": 1,
+              "max_size": 80,
+              "min_size": 24
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": true,
+              "level": 2,
+              "max_size": 24,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": true,
+              "level": 3,
+              "max_size": 18,
+              "min_size": 13
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 11
+            }
+          ]
+        }
+      },
+      "segment": {
+        "annotated_fields": [
+          "text"
+        ],
+        "enabled": true
+      },
+      "word": {
+        "heading": {
+          "fonts": [
+            {
+              "bold": false,
+              "italic": false,
+              "level": 1,
+              "min_size": 24
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 2,
+              "max_size": 23,
+              "min_size": 18
+            },
+            {
+              "bold": false,
+              "italic": false,
+              "level": 3,
+              "max_size": 17,
+              "min_size": 14
+            },
+            {
+              "bold": true,
+              "italic": false,
+              "level": 4,
+              "max_size": 13,
+              "min_size": 13
+            }
+          ],
+          "styles": [
+            {
+              "level": 1,
+              "names": [
+                "pullout heading",
+                "pulloutheading",
+                "header"
+              ]
+            },
+            {
+              "level": 2,
+              "names": [
+                "subtitle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "enrichments": [
+      {
+        "destination_field": "enriched_text",
+        "enrichment": "natural_language_understanding",
+        "options": {
+          "features": {
+            "categories": {},
+            "concepts": {
+              "limit": 8
+            },
+            "entities": {
+              "emotion": false,
+              "limit": 50,
+              "sentiment": true
+            },
+            "sentiment": {
+              "document": true
+            }
+          }
+        },
+        "source_field": "text"
+      }
+    ],
+    "normalizations": []
+  }
+]

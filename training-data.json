@@ -1,0 +1,146 @@
+[
+  {
+    "collection_id": "228451b6-978c-4662-9875-4a5242a458bd",
+    "environment_id": "0533ae0e-8529-4c9f-8fdc-26a90a6171bc",
+    "queries": [
+      {
+        "natural_language_query": "quels sont les principes?",
+        "filter": "",
+        "examples": [
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:34:09.087Z",
+            "updated": "2019-10-23T14:34:09.129Z"
+          },
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a_1",
+            "cross_reference": "",
+            "relevance": 0,
+            "created": "2019-10-23T14:33:57.368Z",
+            "updated": "2019-10-23T14:33:57.414Z"
+          }
+        ],
+        "query_id": "f1bbd61a5232bc43de635e055d3d6035bfd83ba6",
+        "created": "2019-10-23T14:32:54.902Z",
+        "updated": "2019-10-23T14:34:09.129Z"
+      },
+      {
+        "natural_language_query": "quel est le montant de l'amende en cas de violation du RGPD?",
+        "filter": "",
+        "examples": [
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:34:46.361Z",
+            "updated": "2019-10-23T14:34:46.411Z"
+          },
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a_1",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:34:41.374Z",
+            "updated": "2019-10-23T14:34:41.419Z"
+          }
+        ],
+        "query_id": "c8881c5e8e2c41c30a15494679465f02413e8c7c",
+        "created": "2019-10-23T14:32:54.609Z",
+        "updated": "2019-10-23T14:34:46.411Z"
+      },
+      {
+        "natural_language_query": "amendes",
+        "filter": "",
+        "examples": [
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:35:13.053Z",
+            "updated": "2019-10-23T14:35:13.103Z"
+          },
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a_1",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:35:12.146Z",
+            "updated": "2019-10-23T14:35:12.189Z"
+          }
+        ],
+        "query_id": "a8398a4ac10b2638f56903a9320c54505ff252fc",
+        "created": "2019-10-23T14:32:54.417Z",
+        "updated": "2019-10-23T14:35:13.103Z"
+      },
+      {
+        "natural_language_query": "article 83",
+        "filter": "",
+        "examples": [
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:35:32.140Z",
+            "updated": "2019-10-23T14:35:32.185Z"
+          },
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a_1",
+            "cross_reference": "",
+            "relevance": 0,
+            "created": "2019-10-23T14:35:31.184Z",
+            "updated": "2019-10-23T14:35:31.245Z"
+          }
+        ],
+        "query_id": "a02c02065d0b6c867e903c3f97d3a2d6d0d4c99b",
+        "created": "2019-10-23T14:32:54.364Z",
+        "updated": "2019-10-23T14:35:32.185Z"
+      },
+      {
+        "natural_language_query": "Quels sont les principes mis en place par le RGPD?",
+        "filter": "",
+        "examples": [
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "cross_reference": "",
+            "relevance": 0,
+            "created": "2019-10-23T14:30:17.365Z",
+            "updated": "2019-10-23T14:30:17.414Z"
+          },
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a_1",
+            "cross_reference": "",
+            "relevance": 0,
+            "created": "2019-10-23T14:30:16.607Z",
+            "updated": "2019-10-23T14:30:16.655Z"
+          }
+        ],
+        "query_id": "6c42b90bf1e4b03a06abb821d9179836a847b519",
+        "created": "2019-10-23T14:29:36.043Z",
+        "updated": "2019-10-23T14:30:17.414Z"
+      },
+      {
+        "natural_language_query": "Quels sont les sanctions prévues par le RGPD?",
+        "filter": "",
+        "examples": [
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:29:08.123Z",
+            "updated": "2019-10-23T14:29:08.178Z"
+          },
+          {
+            "document_id": "ce803bd9c28c50f43b4a71e4439c416a_1",
+            "cross_reference": "",
+            "relevance": 10,
+            "created": "2019-10-23T14:29:05.428Z",
+            "updated": "2019-10-23T14:29:05.482Z"
+          }
+        ],
+        "query_id": "ab0e66a135a1d1b6c3847ffcfbee06ea9e8549e7",
+        "created": "2019-10-23T14:28:33.950Z",
+        "updated": "2019-10-23T14:29:08.178Z"
+      }
+    ]
+  }
+]

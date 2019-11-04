@@ -1,0 +1,1846 @@
+{
+  "name": "Test Lyon",
+  "intents": [
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Connais-tu une bonne blague salace?"
+        },
+        {
+          "text": "Tu connais des jeux?"
+        },
+        {
+          "text": "Surprends-moi avec quelque chose de drôle !"
+        },
+        {
+          "text": "Raconte moi une blague !"
+        },
+        {
+          "text": "Que pouvez-vous faire d'autre pour m'amuser?"
+        },
+        {
+          "text": "Quelle est ta blague préférée?"
+        },
+        {
+          "text": "Aimes-tu raconter des blagues?"
+        },
+        {
+          "text": "Aimes-tu rigoler?"
+        },
+        {
+          "text": "Amuse-moi!"
+        },
+        {
+          "text": "Amusons-nous!"
+        },
+        {
+          "text": "Connaissez-vous des blagues?"
+        },
+        {
+          "text": "Quelle blague tu peux me raconter ?"
+        },
+        {
+          "text": "Pouvez-vous me dire une blague?"
+        },
+        {
+          "text": "Peux-tu raconter une blague?"
+        },
+        {
+          "text": "Peux-tu dire un truc drôle?"
+        },
+        {
+          "text": "Peux-tu chanter pour moi?"
+        },
+        {
+          "text": "Fais-moi rire!"
+        },
+        {
+          "text": "Dis-moi une autre blague!"
+        },
+        {
+          "text": "Connais-tu une blague?"
+        },
+        {
+          "text": "Dis-moi quelque chose de drôle!"
+        }
+      ],
+      "description": "Demander une blague"
+    },
+    {
+      "intent": "about_RGPD",
+      "examples": [
+        {
+          "text": "Le RGPD c'est quoi?"
+        },
+        {
+          "text": "entrée en vigueur RGPD"
+        },
+        {
+          "text": "A quelle date est entré en vigueur le RGPD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Comment pouvez-vous prouver que vous êtes un humain?"
+        },
+        {
+          "text": "Vous êtes quoi, un ordinateur?"
+        },
+        {
+          "text": "Êtes-vous un humain ou un robot?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme?"
+        },
+        {
+          "text": "Êtes-vous réel?"
+        },
+        {
+          "text": "Qui es-tu vraiment?"
+        },
+        {
+          "text": "Pouvez-vous être honnête avec moi?"
+        },
+        {
+          "text": "Pouvez-vous me connecter à une personne en direct?"
+        },
+        {
+          "text": "Pourrai-je parler un être humain s'il vous plaît ?"
+        },
+        {
+          "text": "Je parle avec qui?"
+        },
+        {
+          "text": "Est-ce que t'es un ordinateur?"
+        },
+        {
+          "text": "Est-ce que je parle à Watson?"
+        },
+        {
+          "text": "Est-ce que je parle à une personne ou suis-je en train de parler à une IA?"
+        },
+        {
+          "text": "Est-ce que je parle à un Bot?"
+        },
+        {
+          "text": "Est-ce que je discute avec un humain?"
+        },
+        {
+          "text": "Dites-moi, êtes-vous un humain ou non?"
+        },
+        {
+          "text": "Dites-moi, qui êtes-vous?"
+        },
+        {
+          "text": "Dis-moi la vérité, qui est-ce que tu es?"
+        },
+        {
+          "text": "Connecte-moi avec une personne réelle."
+        },
+        {
+          "text": "Comment puis-je parler à Watson?"
+        }
+      ],
+      "description": "Demandez si vous parlez à un humain ou à un bot"
+    },
+    {
+      "intent": "définition_données",
+      "examples": [
+        {
+          "text": "qu'est ce qu'une donnée à caractère personnel?"
+        },
+        {
+          "text": "quand est-que une donnée est une donnée à caractère personnel?"
+        },
+        {
+          "text": "A quoi correspondent les données à caractère personnel?"
+        },
+        {
+          "text": "quelle est la définition d'une donnée à caractère personnel?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "S'il vous plaît, commençons une nouvelle discussion."
+        },
+        {
+          "text": "Retour au début, s'il te plaît."
+        },
+        {
+          "text": "Reprenons dès le début."
+        },
+        {
+          "text": "Recommençons !"
+        },
+        {
+          "text": "Puis-je commencer dès le début?"
+        },
+        {
+          "text": "Pouvons-nous recommencer, s'il vous plaît?"
+        },
+        {
+          "text": "Pouvons-nous le refaire s'il vous plaît ?"
+        },
+        {
+          "text": "Pouvez-vous répéter depuis le début?"
+        },
+        {
+          "text": "Nous devons revenir au début et recommencer."
+        },
+        {
+          "text": "Je veux revenir au début."
+        },
+        {
+          "text": "Je veux redémarrer la conversation."
+        },
+        {
+          "text": "Je veux commencer depuis le début."
+        },
+        {
+          "text": "Je recommence tout."
+        },
+        {
+          "text": "Je recommence dès le début."
+        },
+        {
+          "text": "J'ai besoin de tout recommencer."
+        },
+        {
+          "text": "J'ai besoin de revenir au début pour comprendre."
+        },
+        {
+          "text": "Essayons encore une fois."
+        },
+        {
+          "text": "Comment puis-je recommencer?"
+        },
+        {
+          "text": "Revenons en arrière s'il te plaît !"
+        },
+        {
+          "text": "Répétez tout dès le début."
+        }
+      ],
+      "description": "Redémarrez le bot ou le flux actuel"
+    },
+    {
+      "intent": "sanctions_RGPD",
+      "examples": [
+        {
+          "text": "Quelles sont les sanctions prévues par le RGPD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journée !"
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je pars maintenant, à plus !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je vais vous reparler bientôt."
+        },
+        {
+          "text": "Je voudrais arrêter là."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "Nous allos rediscuter bientôt."
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Passe une bonne journée !"
+        },
+        {
+          "text": "Pouvons-nous arrêter ?"
+        },
+        {
+          "text": "C'est tout, merci."
+        },
+        {
+          "text": "C'était un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "C'était sympa de bavarder avec toi!"
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Arrête de m'énerver!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Espece de boîte de conserve!"
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Je te déteste."
+        },
+        {
+          "text": "Je veux parler à une de personne vivante!"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tu es bête!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu m'énerves!"
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        },
+        {
+          "text": "Va te faire foutre!"
+        }
+      ],
+      "description": "Exprimer des commentaires défavorables"
+    },
+    {
+      "intent": "montant_amende",
+      "examples": [
+        {
+          "text": "Quelle est l'amende maximale prévue en cas de violation du RGPD?"
+        },
+        {
+          "text": "Quelles sont les amendes moyennes dues en cas de violation du RGPD?"
+        },
+        {
+          "text": "A combien s'élève le montant maximal l'amende en cas de violation du RGPD?"
+        },
+        {
+          "text": "Quel est le coût de l'amende en cas d'infraction au RGPD?"
+        },
+        {
+          "text": "quelle sanction est ce que je risque?"
+        },
+        {
+          "text": "A combien s'élèvent les amendes en cas d'infraction au RGPD?"
+        },
+        {
+          "text": "Quel est le montant de l'amende en cas de violation du RGPD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Personne ne répond au téléphone !"
+        },
+        {
+          "text": "Laissez-moi parler à votre patron maintenant !"
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous plaît."
+        },
+        {
+          "text": "Je veux parler avec un représentant, s'il vous plaît."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent était inutile !"
+        },
+        {
+          "text": "Je souhaite parler à un agent humain du service client."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un opérateur."
+        },
+        {
+          "text": "Je dois parler à une personne réelle plutôt qu'un système de réponse automatisé, s'il vous plaît."
+        },
+        {
+          "text": "J'aimerais parler à un agent humain, s'il vous plaît."
+        },
+        {
+          "text": "Existe-t-il un numéro que je peux composer pour parler à opérateur en direct ?"
+        },
+        {
+          "text": "Existe-t-il un numéro de service client qui je peux utiliser et parler à  un agent directement ?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler à un agent à propos de certains frais."
+        },
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        },
+        {
+          "text": "Y a-t-il un numéro que je peux composer et rejoindre une personne réelle qui peut m'aider?"
+        },
+        {
+          "text": "Veuillez me connecter à un gestionnaire."
+        },
+        {
+          "text": "Puis-je parler à un représentant du service humain maintenant ?"
+        },
+        {
+          "text": "Puis-je parler à un agent à propos de mon compte ?"
+        },
+        {
+          "text": "Pouvez-vous, s'il vous plaît, diriger mon appel vers un agent humain? Je voudrais parler directement avec un être humain."
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous plaît ? Ma conversation a été coupée."
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "N'importe quoi."
+        },
+        {
+          "text": "Tu ne m'as pas compris."
+        },
+        {
+          "text": "Vous n'avez pas compris ce que j'ai demandé."
+        },
+        {
+          "text": "Vous n'avez pas réussi à trouver ce dont j'avais besoin."
+        },
+        {
+          "text": "Vous n'y êtes pas du tout."
+        },
+        {
+          "text": "Je ne veux pas ça."
+        },
+        {
+          "text": "Je ne pense pas que ce soit la réponse."
+        },
+        {
+          "text": "Je ne comprends pas non plus."
+        },
+        {
+          "text": "Je ne comprends pas ce que tu dis."
+        },
+        {
+          "text": "Je ne comprends pas."
+        },
+        {
+          "text": "Je ne cherchais pas ça."
+        },
+        {
+          "text": "Je n'ai pas parlé de ça."
+        },
+        {
+          "text": "Je n'ai pas dit ça."
+        },
+        {
+          "text": "Je n'ai pas besoin de ça."
+        },
+        {
+          "text": "Ce que tu m'as donné n'est pas exactement ce que je cherchais."
+        },
+        {
+          "text": "Ce n'est pas ce que je voulais dire."
+        },
+        {
+          "text": "Cela ne m'aide pas du tout."
+        },
+        {
+          "text": "Je ne voulais pas dire ça."
+        },
+        {
+          "text": "Mauvaise réponse."
+        },
+        {
+          "text": "Qu'est-ce que tu racontes ?"
+        }
+      ],
+      "description": "Indiquer que la réponse du bot ne répond pas à une question"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Très bien. Faisons-le."
+        },
+        {
+          "text": "Vous avez été très utile."
+        },
+        {
+          "text": "Tu me comprends."
+        },
+        {
+          "text": "Tu lis dans mes pensées."
+        },
+        {
+          "text": "Très bien, merci."
+        },
+        {
+          "text": "Bien. C'est ce que je cherche."
+        },
+        {
+          "text": "Bien sûr!"
+        },
+        {
+          "text": "Bonne réponse."
+        },
+        {
+          "text": "Bon travail."
+        },
+        {
+          "text": "C'est correct."
+        },
+        {
+          "text": "Oui, c'est ça!"
+        },
+        {
+          "text": "Oui."
+        },
+        {
+          "text": "Mais bien sûr!"
+        },
+        {
+          "text": "Génial! C'est exactement ce que je pensais."
+        },
+        {
+          "text": "Formidable."
+        },
+        {
+          "text": "Effectivement!"
+        },
+        {
+          "text": "D'accord."
+        },
+        {
+          "text": "C'est vrai."
+        },
+        {
+          "text": "C'est exactement ce dont j'ai besoin."
+        },
+        {
+          "text": "C'est exactement ce que je veux."
+        }
+      ],
+      "description": "Reconnaissez que la réponse répond à une question / Reconnaître que la réponse satisfait une question"
+    },
+    {
+      "intent": "Notification",
+      "examples": [
+        {
+          "text": "Communication"
+        },
+        {
+          "text": "mentionner"
+        },
+        {
+          "text": "dire"
+        },
+        {
+          "text": "indiquer"
+        },
+        {
+          "text": "Est ce qu'il faut communiquer une violation de données à caractère personnel?"
+        },
+        {
+          "text": "A qui dois-je signaler une violation de données?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Est-ce que l'agent virtuel est toujours disponible ?"
+        },
+        {
+          "text": "Abus de chatbot, est-ce possible ?"
+        },
+        {
+          "text": "Avez vous un ou des surnoms?"
+        },
+        {
+          "text": "Avez-vous un nom de famille?"
+        },
+        {
+          "text": "Écris-tu le portugais ?"
+        },
+        {
+          "text": "Depuis combien de temps effectuez-vous cette fonction?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme ou un robot?"
+        },
+        {
+          "text": "Salut, parles-tu l'espagnol ?"
+        },
+        {
+          "text": "Qu'est-ce que tu n'aimes pas?"
+        },
+        {
+          "text": "Quels sont vos centres d'intérêt ?"
+        },
+        {
+          "text": "Quelle est la technologie utilisée par les agents virtuels ?"
+        },
+        {
+          "text": "Puis-je demander des conseils dans des questions juridiques ?"
+        },
+        {
+          "text": "Présentez-vous !"
+        },
+        {
+          "text": "Pouvez-vous offrir un support aux utilisateurs internes?"
+        },
+        {
+          "text": "Pouvez-vous me permettre de réserver ou commander des billets ?"
+        },
+        {
+          "text": "Pouvez-vous m'en dire plus sur vous?"
+        },
+        {
+          "text": "Les chatbots, que sont-ils exactement capables de faire ?"
+        },
+        {
+          "text": "Etes-vous adaptés pour le service et la relation client ?"
+        },
+        {
+          "text": "Es-tu intelligent ?"
+        }
+      ],
+      "description": "Demander des attributs génériques personnels"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "Vous êtes génial!"
+        },
+        {
+          "text": "Vous êtes un sympa!"
+        },
+        {
+          "text": "Vous êtes vraiment utile."
+        },
+        {
+          "text": "Vous êtes formidable! Merci!"
+        },
+        {
+          "text": "Vous êtes formidable!"
+        },
+        {
+          "text": "Tu te débrouilles plutôt bien!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es plutôt intelligent!"
+        },
+        {
+          "text": "Tu es plutôt doué!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es drôle!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es adorable!"
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ai-je besoin de l'espace de travail du service de conversation pour ajouter une fonctionnalité personnalisée?"
+        },
+        {
+          "text": "Puis-je voir 4 questions les plus fréquentes?"
+        },
+        {
+          "text": "Y a-t-il d'autre domaines avec lesquels aide l'Agent Virtuel?"
+        },
+        {
+          "text": "Savez-vous faire la traduction ?"
+        },
+        {
+          "text": "Qu'est-ce que l'option Désactiver tout ?"
+        },
+        {
+          "text": "Quels sont les options que je peux avoir de plus en utlisant un agent virtuel ?"
+        },
+        {
+          "text": "Quelles sont les options avec lesquelles vous pouvez m'aider?"
+        },
+        {
+          "text": "Puis-je utiliser la fenêtre de prévisualisation pour tester le déroulement de ma conversation ?"
+        },
+        {
+          "text": "Puis-je relier mon espace de travail avec un agent virtuel?"
+        },
+        {
+          "text": "Puis-je récupérer les interactions dans un agent virtuel ?"
+        },
+        {
+          "text": "Puis-je avoir une liste de sujets disponibles auxquels vous pouvez m'aider?"
+        },
+        {
+          "text": "Pouvez-vous lister les possibilités de la rubrique d'aide?"
+        },
+        {
+          "text": "Pourquoi est-ce qu'il n'y a pas d'option de fermer la session dans 'Agent Virtuel'?"
+        },
+        {
+          "text": "J'ai besoin de votre aide pour la création de l'agent virtuel."
+        },
+        {
+          "text": "Dans quelles autres questions pouvez-vous m'aider?"
+        },
+        {
+          "text": "Comment puis-je configurer mes préférences dans l'Agent Virtuel?"
+        },
+        {
+          "text": "Bonjour. Quelle sorte de choses pouvez-vous faire pour moi?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous énumérer les domaines dans lequels vous pouvez fournir de l'aide?"
+        },
+        {
+          "text": "Avez-vous des limites ?"
+        },
+        {
+          "text": "Avez-vous des capacités d'apprentissage ?"
+        }
+      ],
+      "description": "Demander des capacités du bot"
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Oubliez ça, parlons d'autre chose."
+        },
+        {
+          "text": "Nous allons changer de sujet."
+        },
+        {
+          "text": "Sinon, tu peux parler d'autre chose?"
+        },
+        {
+          "text": "Allez, nous allons parler d'autre chose!"
+        },
+        {
+          "text": "Assez parlé de ça, passons à autre chose!"
+        },
+        {
+          "text": "Autre sujet, maintenant."
+        },
+        {
+          "text": "Je veux changer totalement de sujet."
+        },
+        {
+          "text": "Je te donne un autre sujet."
+        },
+        {
+          "text": "Je souhaite parler d'autre chose."
+        },
+        {
+          "text": "Je dois changer le sujet de la discussion."
+        },
+        {
+          "text": "J'ai envie de parler d'autres choses."
+        },
+        {
+          "text": "Est-ce qu'on pourrait parler d'autre chose?"
+        },
+        {
+          "text": "Discutons d'autre chose!"
+        },
+        {
+          "text": "Changeons de sujet!"
+        },
+        {
+          "text": "Change de sujet!"
+        },
+        {
+          "text": "Bien, autre chose maintenant."
+        },
+        {
+          "text": "Bien, ça te dit de changer de sujet ?"
+        },
+        {
+          "text": "Peut-on parler d'autre chose ?"
+        },
+        {
+          "text": "Passons à autre chose."
+        },
+        {
+          "text": "Parlons d'autre chose."
+        }
+      ],
+      "description": "Changer pour un sujet différent"
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Pouvez-vous clarifier ?"
+        },
+        {
+          "text": "Pouvez vous répéter s 'il vous plaît ?"
+        },
+        {
+          "text": "Pouvez-vous être plus précis ?"
+        },
+        {
+          "text": "Précisez!"
+        },
+        {
+          "text": "Répétez s'il vous plaît! Je n'ai pas suivi."
+        },
+        {
+          "text": "S'il vous plaît, dites-le autrement."
+        },
+        {
+          "text": "Dites-le plus simplement."
+        },
+        {
+          "text": "Donne-moi plus de détails."
+        },
+        {
+          "text": "Désolé, répétez encore une fois, s'il vous plaît."
+        },
+        {
+          "text": "Encore une fois, plus clairement."
+        },
+        {
+          "text": "Essayez de dire cela plus clairement, s'il vous plaît."
+        },
+        {
+          "text": "Expliquez, s'il vous plait."
+        },
+        {
+          "text": "J'ai besoin de plus d'informations."
+        },
+        {
+          "text": "Je n'ai pas compris ça."
+        },
+        {
+          "text": "Je n'ai pas entendu. Répétez s'il vous plaît!"
+        },
+        {
+          "text": "Je n'ai pas très bien compris ce que tu m'as dit."
+        },
+        {
+          "text": "Je ne comprends pas tout à fait ce que vous avez dit."
+        },
+        {
+          "text": "Pardon! Je n'ai pas compris."
+        },
+        {
+          "text": "Pardon! Pouvez-vous répéter cela?"
+        },
+        {
+          "text": "Peux-tu être plus spécifique?"
+        }
+      ],
+      "description": "Répétez ou clarifiez la dernière déclaration"
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Refaisons-le!"
+        },
+        {
+          "text": "Laisse tomber."
+        },
+        {
+          "text": "Je vais te le dire autrement."
+        },
+        {
+          "text": "Je ne voulais pas dire ça en fait, revenons en arrière."
+        },
+        {
+          "text": "Je me suis trompé. Revenons en arrière."
+        },
+        {
+          "text": "Je me reprends."
+        },
+        {
+          "text": "J'ai changé d'avis."
+        },
+        {
+          "text": "Faisons-le d'une autre manière."
+        },
+        {
+          "text": "Faisons-le autrement."
+        },
+        {
+          "text": "En fait, je retire ce que je dis."
+        },
+        {
+          "text": "Ce n'était pas correct. Oublie."
+        },
+        {
+          "text": "Ce n'était pas ce que je cherchais."
+        },
+        {
+          "text": "Ce n'est pas ça.  Je recommence."
+        },
+        {
+          "text": "Attendez! Revenons quelques pas en arrière."
+        },
+        {
+          "text": "Attendez! On va le faire autrement."
+        },
+        {
+          "text": "Revenons à ce que j'ai dit."
+        },
+        {
+          "text": "Revenons à ce que je initialement demandé."
+        },
+        {
+          "text": "Revenons à ce que j'ai demandé à l'origine."
+        }
+      ],
+      "description": "Demandez au bot de faire un pas en arrière"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Aucune idée."
+        },
+        {
+          "text": "Je ne suis pas capable de répondre."
+        },
+        {
+          "text": "Je ne sais pas du tout."
+        },
+        {
+          "text": "Je ne sais pas de quoi tu as besoin."
+        },
+        {
+          "text": "Je ne sais pas ce que tu veux."
+        },
+        {
+          "text": "Je n'en sais rien."
+        },
+        {
+          "text": "Je n'ai pas la moindre idée."
+        },
+        {
+          "text": "Je n'ai pas de réponse."
+        },
+        {
+          "text": "Je n'ai aucune idée, en fait."
+        },
+        {
+          "text": "Je n'ai aucune idée de ce que tu cherches."
+        },
+        {
+          "text": "Cela n'a pas de sens."
+        },
+        {
+          "text": "Je ne suis pas certain d'avoir compris ce que vous dites."
+        },
+        {
+          "text": "Je ne suis pas encore convaincu"
+        },
+        {
+          "text": "Je ne suis pas sûr de comprendre."
+        },
+        {
+          "text": "Je sèche."
+        },
+        {
+          "text": "Je suis perdu."
+        },
+        {
+          "text": "Peut être."
+        },
+        {
+          "text": "Pour être honnête, je ne suis vraiment pas sûr."
+        },
+        {
+          "text": "Tu m'as eu."
+        },
+        {
+          "text": "Vous avez dit quoi?"
+        }
+      ],
+      "description": "Indiquer non défini répondre à une question"
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "On reprend dans une minute."
+        },
+        {
+          "text": "Un moment, s'il te plaît."
+        },
+        {
+          "text": "Tu peux m'attendre?"
+        },
+        {
+          "text": "Reste en ligne, je reviens."
+        },
+        {
+          "text": "Pouvez-vous me donner un instant ?"
+        },
+        {
+          "text": "Patience, s'il te plaît."
+        },
+        {
+          "text": "Je reviens."
+        },
+        {
+          "text": "J'ai besoin d'une pause."
+        },
+        {
+          "text": "J'ai besoin de réfléchir un moment."
+        },
+        {
+          "text": "Faisons une pause."
+        },
+        {
+          "text": "Donne-moi une seconde."
+        },
+        {
+          "text": "Donne-moi une minute."
+        },
+        {
+          "text": "Attends une petite seconde!"
+        },
+        {
+          "text": "Attends-moi!"
+        },
+        {
+          "text": "Attendez!"
+        },
+        {
+          "text": "Je suis de retour bientôt."
+        },
+        {
+          "text": "Je suis presque là."
+        },
+        {
+          "text": "Je veux arrêter un moment."
+        },
+        {
+          "text": "Ne pars pas, je reviens."
+        },
+        {
+          "text": "On continue dans un instant."
+        }
+      ],
+      "description": "Indiquer un retard dans la fourniture d'entrée au bot."
+    },
+    {
+      "intent": "Bonjour",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Bonjour Watson!"
+        },
+        {
+          "text": "BOnjour"
+        },
+        {
+          "text": "Bonjour!"
+        },
+        {
+          "text": "Bonsoir"
+        },
+        {
+          "text": "Salut"
+        },
+        {
+          "text": "Coucou"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Avocat",
+      "examples": [
+        {
+          "text": "j'ai besoin d'un rendez-vous"
+        },
+        {
+          "text": "Rendez-vous avec votre cabinet"
+        },
+        {
+          "text": "Rendez vous avec un avocat"
+        },
+        {
+          "text": "je souhaite obtenir un rendez vous à votre cabinet"
+        },
+        {
+          "text": "Rendez-vous avec un conseil"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "J'ai pensé que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "Je suis heureux de te parler pour la première fois !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        },
+        {
+          "text": "Comment ça va ce soir?"
+        },
+        {
+          "text": "Comment se passe votre journée ?"
+        },
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Tu vas bien ?"
+        },
+        {
+          "text": "âllo, âllo !"
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Allez, commençons !"
+        },
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Bonjour, qui êtes-vous?"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Commencez dès le début s'il vous plaît !"
+        },
+        {
+          "text": "Comment ça se passe aujourd'hui ?"
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Hé, es-tu là?"
+        },
+        {
+          "text": "Es-tu toujours là?"
+        },
+        {
+          "text": "Avez-vous entendu ce que j'ai demandé?"
+        },
+        {
+          "text": "Avez-vous besoin de plus de temps?"
+        },
+        {
+          "text": "Auriez-vous disparu?"
+        },
+        {
+          "text": "Que se passe-t-il?"
+        },
+        {
+          "text": "Pouvez-vous dire quelque chose?"
+        },
+        {
+          "text": "Parlez-moi si vous êtes là."
+        },
+        {
+          "text": "Où êtes-vous parti?"
+        },
+        {
+          "text": "Toujours là ?"
+        },
+        {
+          "text": "Tu es toujours avec moi ?"
+        },
+        {
+          "text": "Tu es toujours là ?"
+        },
+        {
+          "text": "Tu me quittes?"
+        },
+        {
+          "text": "Y a-t-il quelqu'un ?"
+        },
+        {
+          "text": "Il y a quelqu'un?"
+        },
+        {
+          "text": "Es-tu toujours là avec moi?"
+        },
+        {
+          "text": "Est-ce que je t'ai perdu?"
+        },
+        {
+          "text": "Est-ce que je parle à quelqu'un?"
+        },
+        {
+          "text": "Donnez-moi un signe que vous êtes toujours là."
+        },
+        {
+          "text": "Avez-vous entendu ce que j'ai dit?"
+        }
+      ],
+      "description": "Demander au bot d'indiquer qu'il est disponible"
+    },
+    {
+      "intent": "Principes_RGPD",
+      "examples": [
+        {
+          "text": "rgpd principes"
+        },
+        {
+          "text": "7 principes du RGPD"
+        },
+        {
+          "text": "Principes du RGPD"
+        },
+        {
+          "text": "quels sont les principes du RGPD?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Question_RGPD",
+      "examples": [
+        {
+          "text": "J'aimerai savoir autre chose sur ce texte"
+        },
+        {
+          "text": "Je m'interroge sur un autre aspect du RGPD"
+        },
+        {
+          "text": "je veux savoir autre chose sur le RGPD"
+        },
+        {
+          "text": "J'ai une autre question sur le RGPD"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Exprimer ses inquiétudes concernant la sécurité du bot"
+    },
+    {
+      "intent": "traitement_données",
+      "examples": [
+        {
+          "text": "A partir de quand une donnée est-elle traitée?"
+        },
+        {
+          "text": "Qu'appelle-t-on exactement traitement des données?"
+        },
+        {
+          "text": "Quelles données peut-on traiter et sous quelles conditions?"
+        },
+        {
+          "text": "Collecter des données, est-ce la même chose que les traiter?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Heure_de_rendez-vous",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Heure",
+          "synonyms": [
+            "Horaire",
+            "matin",
+            "après midi",
+            "midi",
+            "soir",
+            "12",
+            "13",
+            "16h30",
+            "11h30"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Date",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Date",
+          "synonyms": [
+            "Date de rendez-vous",
+            "Date de rencontre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "date d'entrée en vigueur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13 mai 2018",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "données",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "traitement",
+          "synonyms": [
+            "collecte",
+            "collecter",
+            "traiter",
+            "data"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "définition",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "donnée à caractère personnel",
+          "synonyms": [
+            "data",
+            "données"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "RGPD",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Texte",
+          "synonyms": [
+            "GDPR",
+            "Protection des données personnelles",
+            "Protection des données",
+            "Protection des données à caractère personnel",
+            "données",
+            "règlement européen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sanction",
+          "synonyms": [
+            "infraction",
+            "violation",
+            "non respect",
+            "infrigement"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Principes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "transparence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Minimisation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "finalités",
+          "synonyms": [
+            "limitation des finalités"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "exactitude",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Intégrité",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Confidentialité",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Limitation de la conservation",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Rendez-vous",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Avocat",
+          "synonyms": [
+            "Conseil",
+            "cabinet",
+            "entretien",
+            "Consulation"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "fr",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "712a4c7d-d13c-4192-87f8-b0e15f321991",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "conditions": "#Question_RGPD",
+      "dialog_node": "node_7_1572718941128",
+      "previous_sibling": "node_9_1572629684358"
+    },
+    {
+      "type": "standard",
+      "title": "Est ce qu'il faut communiquer une violation de données à caractère personnel?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oui, la notification d'une violation de données à caractère personnel est obligatoire et doit être adressée à l'autorité de contrôle de l'Etat membre où le responsable de traitement est établi. En France, l'autorité de contrôle compétente est la CNIL"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Notification",
+      "dialog_node": "node_4_1572859401040",
+      "previous_sibling": "node_8_1572860827562"
+    },
+    {
+      "type": "standard",
+      "title": "Je souhaite prendre un RDV avec un avocat de votre cabinet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Très bien, à quelle date souhaitez-vous venir au cabinet ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Propositions date de rendez-vous",
+            "options": [
+              {
+                "label": "Jeudi 14 Novembre",
+                "value": {
+                  "input": {
+                    "text": "Date"
+                  }
+                }
+              },
+              {
+                "label": "Lundi 18 Novembre",
+                "value": {
+                  "input": {
+                    "text": "Date"
+                  }
+                }
+              },
+              {
+                "label": "Vendredi 22 Novembre",
+                "value": {
+                  "input": {
+                    "text": "Date"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Avocat",
+      "dialog_node": "node_8_1572860827562",
+      "previous_sibling": "node_4_1572431092112"
+    },
+    {
+      "type": "standard",
+      "title": "Quel est le montant de l'amende en cas d'infraction",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le montant maximal que prévoit l'article 83.6 du RGPD est 20 000 000 EUR ou, dans le cas d'une entreprise, jusqu'à 4 % du chiffre d'affaires annuel mondial total de l'exercice précédent, le montant le plus élevé étant retenu"
+              },
+              {
+                "text": "jusqu'à 4 % du chiffre d'affaires annuel mondial total de l'exercice précédent, le montant le plus élevé étant retenu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#montant_amende",
+      "dialog_node": "node_4_1572431092112",
+      "previous_sibling": "node_8_1572717373994"
+    },
+    {
+      "type": "standard",
+      "title": "Validation ou pas de la date de rendez-vous",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Très bien, à quelle heure souhaitez-vous venir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Propositions heure de rendez-vous",
+            "options": [
+              {
+                "label": "11h30",
+                "value": {
+                  "input": {
+                    "text": "Horaire"
+                  }
+                }
+              },
+              {
+                "label": "14h",
+                "value": {
+                  "input": {
+                    "text": "Horaire"
+                  }
+                }
+              },
+              {
+                "label": "18h15",
+                "value": {
+                  "input": {
+                    "text": "Horaire"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@Date",
+      "dialog_node": "node_4_1572861308257",
+      "previous_sibling": "node_4_1572859401040"
+    },
+    {
+      "type": "standard",
+      "title": "Quels sont les principes reconnus par le RGPD?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ce sont les principes de transparence, de limitation des finalités, de minimisation des données, d’exactitude, de limitations de la conservation, d’intégrité et de confidentialité, ils sont prévus à l'article 5 du RGPD"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Principes_RGPD",
+      "dialog_node": "node_10_1572631393002",
+      "previous_sibling": "node_2_1572718416808"
+    },
+    {
+      "type": "standard",
+      "title": "Quelle est la définition d'une donnée à caractère personnel?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon l'article 4 paragraphe 1 du RGPD, une donnée à caractère personnel est \"toute information se rapportant à une personne physique identifiée ou identifiable (ci-après dénommée «personne concernée»); est réputée être une «personne physique identifiable» une personne physique qui peut être identifiée, directement ou indirectement, notamment par référence à un identifiant, tel qu'un nom, un numéro d'identification, des données de localisation, un identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1572718941128"
+      },
+      "conditions": "#définition_données",
+      "dialog_node": "node_2_1572718416808",
+      "previous_sibling": "node_2_1572631097789"
+    },
+    {
+      "type": "standard",
+      "title": "A partir de quand une donnée est-elle traitée?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Selon l'article 4 du RGPD, il s'agit de \"toute opération ou tout ensemble d'opérations effectuées ou non à l'aide de procédés automatisés et appliquées à des données ou des ensembles de données à caractère personnel, telles que la collecte, l'enregistrement, l'organisation, la structuration, la conservation, l'adaptation ou la modification, l'extraction, la consultation, l'utilisation, la communication par transmission, la diffusion ou toute autre forme de mise à disposition, le rapprochement ou l'interconnexion, la limitation, l'effacement ou la destruction\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#traitement_données ||  @données",
+      "dialog_node": "node_8_1572717373994",
+      "previous_sibling": "node_10_1572631393002"
+    },
+    {
+      "type": "standard",
+      "title": "Quand le RGPD est-il entré en vigueur?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le RGPD est entré en vigueur le 25 mai 2018"
+              },
+              {
+                "text": "Avez-vous une autre question?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1572718941128"
+      },
+      "conditions": "#about_RGPD",
+      "dialog_node": "node_2_1572631097789",
+      "previous_sibling": "node_7_1572718941128"
+    },
+    {
+      "type": "standard",
+      "title": "Bonjour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour! Comment puis-je vous aider?"
+              },
+              {
+                "text": "Bonjour! que puis-je faire pour vous?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bonjour",
+      "dialog_node": "node_9_1572629684358"
+    }
+  ],
+  "workspace_id": "712a4c7d-d13c-4192-87f8-b0e15f321991",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Vouliez-vous dire:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 3,
+      "none_of_the_above_prompt": "Aucune de précédent"
+    },
+    "human_agent_assist": {
+      "prompt": "Vouliez-vous dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
