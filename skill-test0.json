@@ -1,0 +1,463 @@
+{
+  "name": "test0",
+  "intents": [
+    {
+      "intent": "horaires",
+      "examples": [
+        {
+          "text": "Quand puis-je venir?"
+        },
+        {
+          "text": "Quelles sont les horaires d'ouverture?"
+        },
+        {
+          "text": "A quelle heure ouvrez vous?"
+        },
+        {
+          "text": "Quand fermez vous?"
+        },
+        {
+          "text": "Quand êtes vous ouverts?"
+        },
+        {
+          "text": "êtes vous ouvert?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "localites",
+      "examples": [
+        {
+          "text": "Comment se rend-t-on à votre établissement?"
+        },
+        {
+          "text": "Quelle est l'adresse?"
+        },
+        {
+          "text": "Où êtes vous situés?"
+        },
+        {
+          "text": "Où se situe votre établissement?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reserver",
+      "examples": [
+        {
+          "text": "Je veux retenir une table."
+        },
+        {
+          "text": "je veux faire une réservation."
+        },
+        {
+          "text": "Je souhaite réserver."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Localites",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ville",
+          "synonyms": [
+            "en ville",
+            "intra muros",
+            "centre ville"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "banlieue",
+          "synonyms": [
+            "hors de la ville",
+            "pas en ville",
+            "en dehors de la ville"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "language": "fr",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous somme situés près de l'aéroport, 12 rue Charles de Gaulle"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_6_1560782951645",
+      "metadata": {},
+      "conditions": "@Localites:banlieue",
+      "dialog_node": "node_8_1560783054281",
+      "previous_sibling": "node_7_1560783001998"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quel établissement avez-vous choisis ? Centre ville ou banlieue ?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_6_1560782951645",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_9_1560783216126",
+      "previous_sibling": "node_8_1560783054281"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous somme situés près de l'aéroport, 12 rue Charles de Gaulle."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1560782951645",
+      "metadata": {},
+      "conditions": "@Localites:banlieue",
+      "dialog_node": "node_11_1560783460438",
+      "previous_sibling": "node_10_1560783236719"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous sommes situés place de l'hôtel de ville."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1560782951645",
+      "metadata": {},
+      "conditions": "@Localites:ville",
+      "dialog_node": "node_7_1560783001998",
+      "previous_sibling": "node_11_1560783460438"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous sommes situés place de l'hôtel de ville."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1560782951645",
+      "metadata": {},
+      "conditions": "@Localites:ville",
+      "dialog_node": "node_10_1560783236719"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1560784193658",
+      "metadata": {},
+      "variable": "$number",
+      "dialog_node": "slot_12_1560784335403",
+      "previous_sibling": "slot_9_1560784310922"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1560784193658",
+      "variable": "$date",
+      "dialog_node": "slot_6_1560784289723",
+      "previous_sibling": "slot_3_1560784209129"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1560784193658",
+      "variable": "$time",
+      "dialog_node": "slot_9_1560784310922",
+      "previous_sibling": "slot_6_1560784289723"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Je peux vous réserver une table. Communiquez moi le lieu, la date, l'heure et le nombre de personnes..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1560784193658",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1560784209112",
+      "previous_sibling": "slot_12_1560784335403"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1560784193658",
+      "metadata": {},
+      "variable": "$localites",
+      "dialog_node": "slot_3_1560784209129"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "A quelle heure souhaitez vous venir?"
+      },
+      "parent": "slot_9_1560784310922",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1560784310922",
+      "previous_sibling": "handler_10_1560784310922"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1560784310922",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_10_1560784310922"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Quel établissement avez vous choisi? En ville ou en banlieue?"
+      },
+      "parent": "slot_3_1560784209129",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1560784209129",
+      "previous_sibling": "handler_4_1560784209129"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1560784209129",
+      "context": {
+        "localites": "@Localites"
+      },
+      "metadata": {},
+      "conditions": "@Localites",
+      "event_name": "input",
+      "dialog_node": "handler_4_1560784209129"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Pour quelle date dois-je réserver?"
+      },
+      "parent": "slot_6_1560784289723",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1560784289723",
+      "previous_sibling": "handler_7_1560784289723"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1560784289723",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1560784289723"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1560784335403",
+      "context": {
+        "number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number && @sys-number>0",
+      "event_name": "input",
+      "dialog_node": "handler_13_1560784335403",
+      "previous_sibling": "handler_14_1560784335403"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Combien de personne serez vous?"
+      },
+      "parent": "slot_12_1560784335403",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1560784335403"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendu, j'ai une réservation pour notre restaurant en $localites, $date à $time pour $number personnes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#reserver",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1560784193658",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1560782951645",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Vous pouvez essayer de reformuler."
+              },
+              {
+                "text": "Pouvez-vous dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que vous voulez dire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_1_1560784193658"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#localites",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1560782951645",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1560782653070"
+    },
+    {
+      "type": "standard",
+      "title": "Horaires",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous somme ouverts de midi à 14h puis de 19h à minuit."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "input": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "#horaires",
+      "dialog_node": "node_5_1560782653070",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, je peux vous aider à réserver. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bienvenue"
+    }
+  ],
+  "workspace_id": "00593c8f-4cbc-4fa2-86e0-6d584814ce8e",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

@@ -1,0 +1,3972 @@
+{
+  "name": "skill0",
+  "intents": [
+    {
+      "intent": "repeat_request",
+      "examples": [
+        {
+          "text": "I couldn't hear that"
+        },
+        {
+          "text": "say what"
+        },
+        {
+          "text": "can you repeat that please"
+        },
+        {
+          "text": "say that again please"
+        },
+        {
+          "text": "what was that"
+        },
+        {
+          "text": "what did ya say"
+        },
+        {
+          "text": "plese repeat"
+        },
+        {
+          "text": "I didn't hear you"
+        },
+        {
+          "text": "I couldn't hear you"
+        },
+        {
+          "text": "I didn't hear that"
+        },
+        {
+          "text": "say again"
+        },
+        {
+          "text": "come again"
+        },
+        {
+          "text": "repeat that"
+        },
+        {
+          "text": "say that again"
+        },
+        {
+          "text": "what did you say"
+        }
+      ]
+    },
+    {
+      "intent": "feedback",
+      "examples": [
+        {
+          "text": "I like the way the documentation is written"
+        },
+        {
+          "text": "I'm having trouble following the instructions that are given"
+        },
+        {
+          "text": "I love the way that the new breaking news service works!"
+        },
+        {
+          "text": "The watson starter kit is awesome!"
+        },
+        {
+          "text": "I don't think these nodes are very good - or at least they're not documented well."
+        },
+        {
+          "text": "it's really horrendous how badly these nodes are documented - There is absolutely no way any body can follow that! Infuriating!"
+        },
+        {
+          "text": "These new nodes are awesome! I love the way they are used in the new flows!"
+        },
+        {
+          "text": "I'm finding it very difficult to make any of this work"
+        }
+      ]
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "local_recommend",
+      "examples": [
+        {
+          "text": "Can you recommend a good restaurant for dinner?"
+        },
+        {
+          "text": "Is there any kind of to go food I can get?"
+        },
+        {
+          "text": "We're looking for a good Chinese restaurant nearby. Any suggestions?"
+        },
+        {
+          "text": "Hi! Where's a hole in the wall restaurant that's not on your list and you would take your family to."
+        },
+        {
+          "text": "Can you recommend a Japanese restaurant?"
+        },
+        {
+          "text": "Good sitdown reaturants in the area."
+        },
+        {
+          "text": "Is there a place to buy a toothbrush near here?"
+        },
+        {
+          "text": "Where can I buy toiletries"
+        },
+        {
+          "text": "Is there a convenience store near here?"
+        },
+        {
+          "text": "Can you recommend a good Italian restaurant?"
+        },
+        {
+          "text": "Can you recomend a restaurant?"
+        },
+        {
+          "text": "Is there any where I can get food to go around here?"
+        },
+        {
+          "text": "What local restaurants have live music?"
+        },
+        {
+          "text": "Where can I get sushi?"
+        },
+        {
+          "text": "Can I walk to that restaurant or do I need to take a cab?"
+        },
+        {
+          "text": "What fast food places are closed by the hotel?"
+        },
+        {
+          "text": "What are the best restaurants to visit that would provide me a taste of the town?"
+        },
+        {
+          "text": "What local restaurants have Jazz music?"
+        },
+        {
+          "text": "What local restaurants have outdoor seating?"
+        },
+        {
+          "text": "Is there a place close that I can walk to for dinner?"
+        },
+        {
+          "text": "Can you recommend a restaurant for dinner? Perhaps chinese food or italian. Within walking distance of the hotel."
+        },
+        {
+          "text": "What restaurants are in the mall?"
+        },
+        {
+          "text": "What local restaurants have happy hour?"
+        },
+        {
+          "text": "Can you recommend some great upscale restaurants outside of the hotel?"
+        },
+        {
+          "text": "Can you recommend a restaurant that is not a chain for Italian cuisine?"
+        },
+        {
+          "text": "I would like to have dinner at a nice restaurant.  Can you give me some ideas?"
+        },
+        {
+          "text": "Can you make a dinner recommendation - we are thinking Italian."
+        },
+        {
+          "text": "What pizza restaurants deliver to the hotel?"
+        },
+        {
+          "text": "Could you give me a recommendation for a good restaurant with Mexican food?"
+        },
+        {
+          "text": "can you recommend a restaurant nearby?  i'm looking for \"x\" cuisine and \"x\" cost."
+        },
+        {
+          "text": "Which restaurants deliver to the hotel?"
+        },
+        {
+          "text": "Recommend me good restaurants close by?"
+        },
+        {
+          "text": "Is there a restaurant close by that you would recommend?"
+        },
+        {
+          "text": "Hey I was looking for someplace interesting to go eat; do you know anyplace nearby"
+        },
+        {
+          "text": "What Chinese restaurants deliver to the hotel?"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "eat",
+      "examples": [
+        {
+          "text": "I am hungry"
+        },
+        {
+          "text": "I want to eat at an Italian restaurant.  What are the best ones around?"
+        },
+        {
+          "text": "I want some food"
+        },
+        {
+          "text": "Hello I'm starving I'm looking for a place to eat"
+        },
+        {
+          "text": "I am really hungry you know a good place to eat around here"
+        },
+        {
+          "text": "I want pasta"
+        },
+        {
+          "text": "I am looking for a restaurant"
+        },
+        {
+          "text": "I would like to eat something"
+        },
+        {
+          "text": "I am starving"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "hotel_hours",
+      "examples": [
+        {
+          "text": "What time does the food place open?"
+        },
+        {
+          "text": "When is the gym open?"
+        },
+        {
+          "text": "what's open right now"
+        },
+        {
+          "text": "When does the gym close?"
+        },
+        {
+          "text": "When is the pool open?"
+        },
+        {
+          "text": "What are your hours of the restaurant?"
+        },
+        {
+          "text": "What time does the restaurant close?"
+        },
+        {
+          "text": "What's the lunch time?"
+        },
+        {
+          "text": "What time does the lounge/restaurant open"
+        },
+        {
+          "text": "What time can I grab dinner?"
+        },
+        {
+          "text": "What are the hours of the gym?"
+        },
+        {
+          "text": "What are the hotel Restaurant hours of operation?"
+        },
+        {
+          "text": "What are the pool and Fitness Center hours ?"
+        },
+        {
+          "text": "What are the hours of your restaurant?"
+        },
+        {
+          "text": "When are you serving dinner?"
+        },
+        {
+          "text": "hours fo pool"
+        }
+      ]
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "hotel_location",
+      "examples": [
+        {
+          "text": "Where is the gym?"
+        },
+        {
+          "text": "Do you have a sauna?"
+        },
+        {
+          "text": "Is the pool outside?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hotel_info",
+      "examples": [
+        {
+          "text": "how do I get in the gym ?"
+        },
+        {
+          "text": "how do I get in the gym"
+        },
+        {
+          "text": "Do you have water in your gym?"
+        },
+        {
+          "text": "What size is the pool?"
+        },
+        {
+          "text": "Can I bring food to the pool?"
+        },
+        {
+          "text": "Is the pool heated?"
+        },
+        {
+          "text": "Do you have an elliptical?"
+        },
+        {
+          "text": "Is there a lifeguard?"
+        },
+        {
+          "text": "Can I order food at the pool?"
+        },
+        {
+          "text": "Do you have weights?"
+        },
+        {
+          "text": "How deep is the pool?"
+        },
+        {
+          "text": "What is the length of the Pool?"
+        },
+        {
+          "text": "Do you have a bike?"
+        },
+        {
+          "text": "Do you have an outdoor/ indoor pool?"
+        }
+      ]
+    },
+    {
+      "intent": "hotel_procedure",
+      "examples": [
+        {
+          "text": "how do I turn the ac off in my room"
+        },
+        {
+          "text": "How do I arrange a shuttle or a taxi to the airport?"
+        },
+        {
+          "text": "How do I set the clock alarm in the guestroom?"
+        },
+        {
+          "text": "How do I adjust the heat/AC in the guestroom?"
+        },
+        {
+          "text": "How do I arrange a shuttle or taxi to the airport?"
+        },
+        {
+          "text": "Hey can I get some new towels up to my room"
+        },
+        {
+          "text": "How can I arrange transportation?"
+        },
+        {
+          "text": "How do I book a large reservation in the restaurant?"
+        },
+        {
+          "text": "How can I book a cab?"
+        },
+        {
+          "text": "How can I book a taxi?"
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Another thing"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "order_pizza",
+      "examples": [
+        {
+          "text": "Can I order a pizza without pineapple",
+          "mentions": [
+            {
+              "entity": "pizza_notoppings",
+              "location": [
+                28,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I get a pizza margarita; small please"
+        },
+        {
+          "text": "Can you deliver a vegetarian pizza"
+        },
+        {
+          "text": "I want to order a large pizza"
+        },
+        {
+          "text": "I want to order a pizza"
+        },
+        {
+          "text": "Can I order a pizza with more cheese",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                30,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "can I have a carnivore pizza but no chicken",
+          "mentions": [
+            {
+              "entity": "pizza_notoppings",
+              "location": [
+                36,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I love anchovies so please send me a pizza full of them",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                7,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I 'd like pepperoni pizza",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                10,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'd like a large hawaiian with extra pineeapple",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                37,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "can I have a pizza with onions, beef, chicken and extra cheese",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                24,
+                45
+              ]
+            },
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                56,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can I get a pizza with extra red peppers but no green peppers",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                29,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "a large vegetarian without onions"
+        },
+        {
+          "text": "Can I get a hawaiian pizza with no pineapple",
+          "mentions": [
+            {
+              "entity": "pizza_notoppings",
+              "location": [
+                35,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "medium pizza please and I don't want any red peppers",
+          "mentions": [
+            {
+              "entity": "pizza_notoppings",
+              "location": [
+                41,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I don't want red peppers or onions on my vegetarian pizza",
+          "mentions": [
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                13,
+                24
+              ]
+            },
+            {
+              "entity": "pizza_toppings",
+              "location": [
+                28,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'd like a small margherita but please no anchovies",
+          "mentions": [
+            {
+              "entity": "pizza_notoppings",
+              "location": [
+                42,
+                51
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "weather",
+      "examples": [
+        {
+          "text": "Can we go someplace where it's not raining?"
+        },
+        {
+          "text": "how hot"
+        },
+        {
+          "text": "when the rain of end"
+        },
+        {
+          "text": "is it dark outside"
+        },
+        {
+          "text": "When will it be sunny"
+        },
+        {
+          "text": "when will be the rain end ?"
+        },
+        {
+          "text": "when were you there when rain is starch"
+        },
+        {
+          "text": "when the rain stops?"
+        },
+        {
+          "text": "when the rail will end"
+        },
+        {
+          "text": "when rain ends"
+        },
+        {
+          "text": "when rain"
+        },
+        {
+          "text": "when all the rain and"
+        },
+        {
+          "text": "What weather do you like?"
+        },
+        {
+          "text": "what weather?"
+        },
+        {
+          "text": "What us weather in 08854"
+        },
+        {
+          "text": "what time will the weather change"
+        },
+        {
+          "text": "what's the weather out would be to destination"
+        },
+        {
+          "text": "whats the weather outside"
+        },
+        {
+          "text": "whats the weather like right now"
+        },
+        {
+          "text": "what's the weather"
+        },
+        {
+          "text": "Whats the temperature outside?"
+        },
+        {
+          "text": "What's the temperature outside?"
+        },
+        {
+          "text": "whats the outside air temperature?"
+        },
+        {
+          "text": "what is the weather like"
+        },
+        {
+          "text": "What is the weather going to be like"
+        },
+        {
+          "text": "what is the tempreture outside"
+        },
+        {
+          "text": "What is the temperature outside?"
+        },
+        {
+          "text": "What is the temperature outside"
+        },
+        {
+          "text": "what is the rain?"
+        },
+        {
+          "text": "what is the outside temperature?"
+        },
+        {
+          "text": "what abt weather today?"
+        },
+        {
+          "text": "what about weather today?"
+        },
+        {
+          "text": "What about weather?"
+        },
+        {
+          "text": "What about weather"
+        },
+        {
+          "text": "weather is cool."
+        },
+        {
+          "text": "watson when this rain will over"
+        },
+        {
+          "text": "the weather is important to me"
+        },
+        {
+          "text": "The sun is out"
+        },
+        {
+          "text": "tell me the weather"
+        },
+        {
+          "text": "is it sunny out?"
+        },
+        {
+          "text": "is raining"
+        },
+        {
+          "text": "Is raining?"
+        },
+        {
+          "text": "is raining today"
+        },
+        {
+          "text": "it is a sunny day"
+        },
+        {
+          "text": "it is cloudy now"
+        },
+        {
+          "text": "How about this rain"
+        },
+        {
+          "text": "how cold"
+        },
+        {
+          "text": "how cold is it out"
+        },
+        {
+          "text": "how cold is it outside"
+        },
+        {
+          "text": "it's sunny, maybe we don't need the lights"
+        },
+        {
+          "text": "it's sunny now"
+        },
+        {
+          "text": "I want to know the weather"
+        },
+        {
+          "text": "I want to see weather forecasts"
+        },
+        {
+          "text": "i want to  weather news."
+        },
+        {
+          "text": "look up the weather"
+        },
+        {
+          "text": "look up the weather in tel aviv"
+        },
+        {
+          "text": "make it stop raining"
+        },
+        {
+          "text": "Oh, it's a sunny day"
+        },
+        {
+          "text": "oh, it started to rain"
+        },
+        {
+          "text": "oops... it's raining again"
+        },
+        {
+          "text": "raining now"
+        },
+        {
+          "text": "rain rain go away"
+        },
+        {
+          "text": "When will the rain stop"
+        },
+        {
+          "text": "when will the sun appear?"
+        },
+        {
+          "text": "when will the sun begin?"
+        },
+        {
+          "text": "when will the sun come out"
+        },
+        {
+          "text": "when will the sun set?"
+        },
+        {
+          "text": "when will this rain end"
+        },
+        {
+          "text": "when will this rain end?"
+        },
+        {
+          "text": "when wil the rain end?"
+        },
+        {
+          "text": "Whn will this rain stop?"
+        },
+        {
+          "text": "why is it raining ?"
+        },
+        {
+          "text": "Why is it raining"
+        },
+        {
+          "text": "Why is it raining?"
+        },
+        {
+          "text": "Why is it raining again"
+        },
+        {
+          "text": "Why is it raining today?"
+        },
+        {
+          "text": "why it is raining"
+        },
+        {
+          "text": "Why it is raining?"
+        },
+        {
+          "text": "will it be warm today?"
+        },
+        {
+          "text": "will it rain much longer?"
+        },
+        {
+          "text": "will rain end?"
+        },
+        {
+          "text": "Will rain stop?"
+        },
+        {
+          "text": "wow .. it is raining in front of my car"
+        },
+        {
+          "text": "is raining now"
+        },
+        {
+          "text": "can you tell me what's the weather will be in one hour if we keep goint in this direction?"
+        },
+        {
+          "text": "Can you tell me what the weather looks like?"
+        },
+        {
+          "text": "Check the weater"
+        },
+        {
+          "text": "check the weather"
+        },
+        {
+          "text": "check the wether"
+        },
+        {
+          "text": "check the wheather"
+        },
+        {
+          "text": "check weather"
+        },
+        {
+          "text": "Does It raining all day?"
+        },
+        {
+          "text": "Does the weather get worse"
+        },
+        {
+          "text": "do I need a jacket"
+        },
+        {
+          "text": "do you know weather today"
+        },
+        {
+          "text": "do you think will rain?"
+        },
+        {
+          "text": "Good weather, ya?"
+        },
+        {
+          "text": "Harvard is it going to rain"
+        },
+        {
+          "text": "hey watson it's not raining"
+        },
+        {
+          "text": "Hi, please tell me something about weather"
+        },
+        {
+          "text": "hi, what is the temperature in milan"
+        },
+        {
+          "text": "what would be the weather 50 km ahead?"
+        },
+        {
+          "text": "how hot is it outside"
+        },
+        {
+          "text": "How is the climate?"
+        },
+        {
+          "text": "How is the typooon"
+        },
+        {
+          "text": "how is the weater?"
+        },
+        {
+          "text": "how long the rain?"
+        },
+        {
+          "text": "how long till it rains"
+        },
+        {
+          "text": "How long until the rain ends?"
+        },
+        {
+          "text": "how long will it rain"
+        },
+        {
+          "text": "how many degrees are outside?"
+        },
+        {
+          "text": "how's the wether"
+        },
+        {
+          "text": "how`s the wheather"
+        },
+        {
+          "text": "how warm is it"
+        },
+        {
+          "text": "is it a clear day ?"
+        },
+        {
+          "text": "is it a nice day today?"
+        },
+        {
+          "text": "is it a sunny day"
+        },
+        {
+          "text": "When will it be sunny?"
+        },
+        {
+          "text": "is it going to rain"
+        },
+        {
+          "text": "Is it going to rain?"
+        },
+        {
+          "text": "Is it going to rain all day?"
+        },
+        {
+          "text": "is it going to rain for the entire day?"
+        },
+        {
+          "text": "is it going to rain later today"
+        },
+        {
+          "text": "is it going to rain today?"
+        },
+        {
+          "text": "is it going to rain when we arrive?"
+        },
+        {
+          "text": "is it gonna be raining"
+        },
+        {
+          "text": "is it raining"
+        },
+        {
+          "text": "Is it rainning now?"
+        },
+        {
+          "text": "is it rainning right?"
+        },
+        {
+          "text": "when will the rain arrive"
+        },
+        {
+          "text": "It is going to rain"
+        },
+        {
+          "text": "it isn't raining anymore"
+        },
+        {
+          "text": "it is raining, what can you do ?"
+        },
+        {
+          "text": "It's a rainy day"
+        },
+        {
+          "text": "It's become sunny now"
+        },
+        {
+          "text": "It's cold here"
+        },
+        {
+          "text": "it's cold today"
+        },
+        {
+          "text": "it's getting cold"
+        },
+        {
+          "text": "it's hot"
+        },
+        {
+          "text": "its is raining"
+        },
+        {
+          "text": "it's raining ..."
+        },
+        {
+          "text": "its raining now ?"
+        },
+        {
+          "text": "Its Raining now"
+        },
+        {
+          "text": "It's rain today."
+        }
+      ]
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You are wonderful"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "update_profile",
+      "examples": [
+        {
+          "text": "I need to reset my name"
+        },
+        {
+          "text": "I want to update my profile"
+        },
+        {
+          "text": "Can I set a new nickname?"
+        },
+        {
+          "text": "I would like to refresh my profile"
+        },
+        {
+          "text": "update the identity"
+        },
+        {
+          "text": "Can you change my ID?"
+        }
+      ]
+    },
+    {
+      "intent": "exit",
+      "examples": [
+        {
+          "text": "cancel"
+        },
+        {
+          "text": "stop the order"
+        },
+        {
+          "text": "I don't want to go further"
+        },
+        {
+          "text": "get me out"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "get me out of here"
+        }
+      ]
+    },
+    {
+      "intent": "hotel_locations",
+      "examples": [
+        {
+          "text": "Which floor is the gym/pool on?"
+        },
+        {
+          "text": "any good time to go swimming"
+        },
+        {
+          "text": "How do I get in the gym?"
+        },
+        {
+          "text": "Where is the gym?"
+        },
+        {
+          "text": "Do you have an outdoor pool?"
+        },
+        {
+          "text": "When can I go for a swim"
+        },
+        {
+          "text": "Do you have a sauna?"
+        },
+        {
+          "text": "Where is the restaurant"
+        },
+        {
+          "text": "Is there a local full service gym?"
+        },
+        {
+          "text": "Where is the pool"
+        },
+        {
+          "text": "Hi!  What's the quickest way to get from point A to point B."
+        },
+        {
+          "text": "Where is the gym/fitness center"
+        },
+        {
+          "text": "Where is hotel restaurant?"
+        },
+        {
+          "text": "I want to go swimming."
+        },
+        {
+          "text": "Whereabouts is the gym?"
+        },
+        {
+          "text": "Where is the hotel cafe?"
+        },
+        {
+          "text": "Where is the restaurant?"
+        },
+        {
+          "text": "Is the pool outside?"
+        },
+        {
+          "text": "I'm hungry. Where can I eat?"
+        },
+        {
+          "text": "Where can I go swimming?"
+        },
+        {
+          "text": "Where do you serve lunch?"
+        },
+        {
+          "text": "Where is the swimming pool?"
+        },
+        {
+          "text": "can I get hot tea at breakfast?"
+        },
+        {
+          "text": "I want to work out."
+        }
+      ]
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Can we please start over?"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Let me see"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "reset",
+      "examples": [
+        {
+          "text": "cancel the order"
+        },
+        {
+          "text": "stop ordering"
+        },
+        {
+          "text": "delete the inputs"
+        },
+        {
+          "text": "reset"
+        },
+        {
+          "text": "reset operation"
+        }
+      ]
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "pattern",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email address",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pizza_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pepperoni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vegetarian",
+          "synonyms": [
+            "vegetariana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quatro formaggi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "margherita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mexicana",
+          "synonyms": [
+            "mexican"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "transportation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "taxi",
+          "synonyms": [
+            "cab",
+            "uber"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "shuttle",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Restaurant",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pizza_restaurant",
+          "synonyms": [
+            "pizza restaurant, pizza, pizza pie, pizzeria",
+            "pizza restaurant",
+            "pizza",
+            "pizza pie",
+            "pizzeria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "italian_restaurant",
+          "synonyms": [
+            "italian cuisine",
+            "italian food",
+            "italian place",
+            "italian restaurant",
+            "pasta",
+            "italian"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chinese_restaurant",
+          "synonyms": [
+            "chinese restaurant, spring roll, noodles",
+            "chinese restaurant",
+            "spring roll",
+            "noodles",
+            "chinese food",
+            "chinese"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "french_restaurant",
+          "synonyms": [
+            "french   restaurant,   brasserie,   froglegs, macaron",
+            "french restaurant",
+            "brasserie",
+            "frog legs",
+            "macaron",
+            "french food",
+            "french"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "japanese_restaurant",
+          "synonyms": [
+            "japanese food",
+            "japanese restaurant",
+            "sushi",
+            "japanese"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fast_food",
+          "synonyms": [
+            "fast food",
+            "hamburger",
+            "junk food"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "steak_house",
+          "synonyms": [
+            "steak house",
+            "beef",
+            "meat",
+            "tex-mex",
+            "texan",
+            "mexican"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coffee_shop",
+          "synonyms": [
+            "coffee place",
+            "coffee shop",
+            "dunkin",
+            "dunking",
+            "starbucks"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "pizza_size",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "medium",
+          "synonyms": [
+            "regular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "small",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "large",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "guestroom",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alarm_clock",
+          "synonyms": [
+            "alarm",
+            "clock",
+            "radio",
+            "radio clock",
+            "alarm clock"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "towels",
+          "synonyms": [
+            "towel",
+            "wash cloth",
+            "linens",
+            "linen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "heat_ac",
+          "synonyms": [
+            "ac",
+            "cooler",
+            "heater",
+            "room temperature",
+            "temperature",
+            "heat",
+            "air conditioning"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "pizza_notoppings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chilli",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "red peppers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "green peppers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "beef",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "olives",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anchovies",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cheese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salamy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chicken",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pineapple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "onions",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "pizza_toppings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "green peppers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chicken",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pineapple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "red peppers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cheese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anchovies",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "olives",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "onions",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pineeapple",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "beef",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chilli",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salamy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "onions, beef, chicken",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pepperoni",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "hotel_amenity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hotel restaurant",
+          "synonyms": [
+            "food place",
+            "hotel lounge",
+            "hotel restaurant",
+            "lounge",
+            "your restaurant",
+            "restaurant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gym",
+          "synonyms": [
+            "bike",
+            "elliptical",
+            "fitness center",
+            "lift weights",
+            "weights"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pool",
+          "synonyms": [
+            "lifeguard",
+            "swimming",
+            "swimming pool"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wellness center",
+          "synonyms": [
+            "wellness",
+            "sauna"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "pizza_confirmed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "agreed",
+            "confirmed",
+            "I confirm",
+            "sure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reject",
+          "synonyms": [
+            "no",
+            "reject"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "mealtime",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "breakfast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dinner",
+          "synonyms": [
+            "supper"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lunch",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "places",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sitdown",
+          "synonyms": [
+            "sit down",
+            "eat in",
+            "eat-in"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "restaurant",
+          "synonyms": [
+            "local restaurant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "food_to_go",
+          "synonyms": [
+            "take away",
+            "carry out",
+            "to go food",
+            "food to go"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide size of the pizza, e.g small, medium or large."
+          ]
+        }
+      },
+      "parent": "slot_3_1544173034062",
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_24_1544174221455",
+      "previous_sibling": "handler_22_1544174066920"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1544173034062",
+      "context": {
+        "pizza_size": "@pizza_size"
+      },
+      "metadata": {},
+      "conditions": "@pizza_size",
+      "event_name": "input",
+      "dialog_node": "handler_4_1544173034062",
+      "previous_sibling": "handler_5_1544173034062"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, we do not serve small vegetarian pizza. Pleaseselect different type or size."
+          ]
+        }
+      },
+      "parent": "slot_3_1544173034062",
+      "context": {
+        "pizza_size": null
+      },
+      "metadata": {},
+      "conditions": "$pizza_size:small && $pizza_type:vegetarian",
+      "event_name": "filled",
+      "dialog_node": "handler_22_1544174066920",
+      "previous_sibling": "handler_4_1544173034062"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What size of pizza do you want?"
+      },
+      "parent": "slot_3_1544173034062",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1544173034062"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_9_1544173125306",
+      "context": {
+        "texttoppings": "with <? $pizza_toppings.join(',') ?>"
+      },
+      "metadata": {},
+      "conditions": "$pizza_toppings",
+      "event_name": "filled",
+      "dialog_node": "handler_30_1544175147199",
+      "previous_sibling": "handler_28_1544175073259"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_9_1544173125306",
+      "context": {
+        "texttoppings": "with   <? $pizza_toppings.join(',')   ?>   and   without   <? $pizza_notoppings.join(',') ?>"
+      },
+      "metadata": {},
+      "conditions": "$pizza_notoppings && $pizza_toppings",
+      "event_name": "filled",
+      "dialog_node": "handler_28_1544175073259",
+      "previous_sibling": "handler_10_1544173125306"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1544173125306",
+      "context": {
+        "pizza_toppings": "@pizza_toppings.values"
+      },
+      "metadata": {},
+      "conditions": "@pizza_toppings.values",
+      "event_name": "input",
+      "dialog_node": "handler_10_1544173125306",
+      "previous_sibling": "handler_11_1544173125306"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1544173125306",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_11_1544173125306"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1544172964679",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$pizza_type",
+      "dialog_node": "slot_6_1544173076958",
+      "previous_sibling": "slot_3_1544173034062"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1544172964679",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$pizza_notoppings",
+      "dialog_node": "slot_12_1544173187596",
+      "previous_sibling": "slot_9_1544173125306"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1544172964679",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$pizza_confirmed",
+      "dialog_node": "slot_15_1544173577376",
+      "previous_sibling": "handler_2_1544173034040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1544172964679",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$pizza_toppings",
+      "dialog_node": "slot_9_1544173125306",
+      "previous_sibling": "slot_6_1544173076958"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Can you provide us the pizza size (small, medium, large) and the pizza type (vegetarian, mexicana, quatro formaggi, pepperoni, margherita)?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1544172964679",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1544173034040",
+      "previous_sibling": "handler_41_1544175983052"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "exiting"
+          ]
+        }
+      },
+      "parent": "node_1_1544172964679",
+      "context": {
+        "pizza_size": "no_def",
+        "pizza_type": "no_def",
+        "pizza_confirmed": false
+      },
+      "conditions": "#exit",
+      "event_name": "generic",
+      "dialog_node": "handler_41_1544175983052",
+      "previous_sibling": "handler_40_1544175957426"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Resetting"
+          ]
+        }
+      },
+      "parent": "node_1_1544172964679",
+      "context": {
+        "pizza_size": null,
+        "pizza_type": null
+      },
+      "conditions": "#reset",
+      "event_name": "generic",
+      "dialog_node": "handler_40_1544175957426",
+      "previous_sibling": "handler_39_1544175851768"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide pizza size and type, e.g large margherita, small margherita."
+          ]
+        }
+      },
+      "parent": "node_1_1544172964679",
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities",
+      "event_name": "generic",
+      "dialog_node": "handler_39_1544175851768",
+      "previous_sibling": "slot_12_1544173187596"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1544172964679",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$pizza_size",
+      "dialog_node": "slot_3_1544173034062"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The $hotel_amenity is in the front lobby."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1544160923731",
+      "metadata": {},
+      "conditions": "$hotel_amenity:gym",
+      "dialog_node": "node_7_1544160992697",
+      "previous_sibling": "node_6_1544160935887"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1544160923731",
+      "variable": "$hotel_amenity",
+      "dialog_node": "slot_13_1544161650373",
+      "previous_sibling": "node_8_1544161015129"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The $hotel_amenity is located on the ground floor of the hotel."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1544160923731",
+      "metadata": {},
+      "conditions": "$hotel_amenity:(hotel restaurant)",
+      "dialog_node": "node_8_1544161015129",
+      "previous_sibling": "node_7_1544160992697"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I understand that you'd like to locate something in the hotel. Please  ask  me  for  the  specific  amenity  you  are  looking  for, (gym, restaurant, pool, sauna) or you may call the front desk for directions."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1544160923731",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1544161029176",
+      "previous_sibling": "slot_13_1544161650373"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The $hotel_amenity is on the second floor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1544160923731",
+      "metadata": {},
+      "conditions": "$hotel_amenity:pool || @hotel_amenity:(wellness center)",
+      "dialog_node": "node_6_1544160935887"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I am having difficulty helping you, aconcierge is going to contact you in less than 2 minutes."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1544159602768",
+      "metadata": {},
+      "conditions": "$unanswer_counter>2",
+      "dialog_node": "node_6_1544159712110",
+      "previous_sibling": "node_5_1544159670690"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A concierge is going to contact you in less than 2 minutes."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1544159602768",
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_5_1544159670690"
+    },
+    {
+      "type": "frame",
+      "title": "Hotel Locations",
+      "output": {},
+      "parent": "node_48_1544179067416",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#hotel_locations",
+      "dialog_node": "node_5_1544160923731",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1544158053014",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Hotel Hours",
+      "output": {},
+      "parent": "node_48_1544179067416",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#hotel_hours",
+      "dialog_node": "node_2_1544158053014",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good Afternoon!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "now().after('12:00:00')",
+      "dialog_node": "node_4_1544159019235",
+      "previous_sibling": "node_3_1544158975210"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good Morning!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "now().before('12:00:00')",
+      "dialog_node": "node_3_1544158975210",
+      "previous_sibling": "node_3_1544159207868"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "Welcome",
+      "metadata": {},
+      "dialog_node": "node_2_1544159184497",
+      "previous_sibling": "node_1_1544159173763"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hi!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1544159173763",
+      "previous_sibling": "node_4_1544159019235"
+    },
+    {
+      "type": "standard",
+      "title": "welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am Watson. I can answer questions about the Hotel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "unanswer_counter": ""
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_3_1544159207868"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1544173076958",
+      "context": {
+        "pizza_type": "@pizza_type"
+      },
+      "metadata": {},
+      "conditions": "@pizza_type",
+      "event_name": "input",
+      "dialog_node": "handler_7_1544173076958",
+      "previous_sibling": "handler_8_1544173076958"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok    replacing    <?    event.previous_value    ?>    with        <? event.current_value ?>."
+          ]
+        }
+      },
+      "parent": "slot_6_1544173076958",
+      "metadata": {},
+      "conditions": "event.previous_value and event.previous_value!=event.current_value",
+      "event_name": "filled",
+      "dialog_node": "handler_25_1544174732191",
+      "previous_sibling": "handler_18_1544173696861"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can select one of the following types: margherita, pepperoni, quatro formaggi, mexicana, vegetarian"
+          ]
+        }
+      },
+      "parent": "slot_6_1544173076958",
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_19_1544173696861",
+      "previous_sibling": "handler_27_1544174850619"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$pizza_type is a good choice. But be warned, pepperoni is very hot!"
+          ]
+        }
+      },
+      "parent": "slot_6_1544173076958",
+      "metadata": {},
+      "conditions": "$pizza_type:pepperoni",
+      "event_name": "filled",
+      "dialog_node": "handler_26_1544174826606",
+      "previous_sibling": "handler_25_1544174732191"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, we do not serve small vegetarian pizza. Please select different type or size."
+          ]
+        }
+      },
+      "parent": "slot_6_1544173076958",
+      "context": {
+        "pizza_type": null
+      },
+      "metadata": {},
+      "conditions": "$pizza_size:small && $pizza_type:vegetarian",
+      "event_name": "filled",
+      "dialog_node": "handler_18_1544173696861",
+      "previous_sibling": "handler_7_1544173076958"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$pizza_type is a good choice."
+          ]
+        }
+      },
+      "parent": "slot_6_1544173076958",
+      "metadata": {},
+      "conditions": "anything_else",
+      "event_name": "filled",
+      "dialog_node": "handler_27_1544174850619",
+      "previous_sibling": "handler_26_1544174826606"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What type of pizza do you want?"
+      },
+      "parent": "slot_6_1544173076958",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1544173076958"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Your pizza order will be finished in few minutes. Please feel free to place another order right now"
+          ]
+        }
+      },
+      "parent": "slot_15_1544173577376",
+      "metadata": {},
+      "conditions": "#Bot_Control_Approve_Response",
+      "event_name": "filled",
+      "dialog_node": "handler_34_1544175654992",
+      "previous_sibling": "handler_16_1544173577376"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1544173577376",
+      "context": {
+        "pizza_confirmed": "#Bot_Control_Approve_Response || #Bot_Control_Reject_Response"
+      },
+      "metadata": {},
+      "conditions": "#Bot_Control_Approve_Response || #Bot_Control_Reject_Response",
+      "event_name": "input",
+      "dialog_node": "handler_16_1544173577376",
+      "previous_sibling": "handler_17_1544173577376"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The order has been cancelled."
+          ]
+        }
+      },
+      "parent": "slot_15_1544173577376",
+      "metadata": {},
+      "conditions": "#Bot_Control_Reject_Response",
+      "event_name": "filled",
+      "dialog_node": "handler_36_1544175695068",
+      "previous_sibling": "handler_34_1544175654992"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I did not understand. Can you please write yes to confirm the order or no to cancel the order all together? You can also yet change the type or size. Just say e.g. '\"small Margherita."
+          ]
+        }
+      },
+      "parent": "slot_15_1544173577376",
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_38_1544175809551",
+      "previous_sibling": "handler_36_1544175695068"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "I have you for $pizza_size $pizza_type $texttoppings. Is it correct?"
+      },
+      "parent": "slot_15_1544173577376",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1544173577376"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "context": {
+        "hotel_amenity": "@hotel_amenity"
+      },
+      "metadata": {},
+      "conditions": "@hotel_amenity",
+      "dialog_node": "node_11_1544161375491",
+      "previous_sibling": "node_4_1544160773636"
+    },
+    {
+      "type": "standard",
+      "title": "Pool Hours",
+      "output": {
+        "text": {
+          "values": [
+            "The $hotel_amenity is open from 5am to 8pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "metadata": {},
+      "conditions": "$hotel_amenity:pool",
+      "dialog_node": "node_1_1544160614252",
+      "previous_sibling": "node_8_1544160011754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1544161478300",
+      "previous_sibling": "node_11_1544161375491"
+    },
+    {
+      "type": "standard",
+      "title": "Hotel Restaurant Hours",
+      "output": {
+        "text": {
+          "values": [
+            "The  $hotel_amenity  is  open  from  5am  to 2pm and from 6pm to 1am."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "metadata": {},
+      "conditions": "$hotel_amenity:(hotel restaurant)",
+      "dialog_node": "node_2_1544160681579",
+      "previous_sibling": "node_1_1544160614252"
+    },
+    {
+      "type": "standard",
+      "title": "WellnessHours",
+      "output": {
+        "text": {
+          "values": [
+            "The $hotel_amenity is open from 10am to 9pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "metadata": {},
+      "conditions": "$hotel_amenity:(wellness center)",
+      "dialog_node": "node_3_1544160721092",
+      "previous_sibling": "node_2_1544160681579"
+    },
+    {
+      "type": "standard",
+      "title": "Default Hotel Hours",
+      "output": {
+        "text": {
+          "values": [
+            "I understand that you would like to learn more about our hours  of  operation.  You  can  ask  me specifically  what hours  you  are  looking  for  (gym,  restaurant,  pool, sauna),  or  you  may  call  the  front  desk  for  more information."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1544160773636",
+      "previous_sibling": "node_3_1544160721092"
+    },
+    {
+      "type": "standard",
+      "title": "Gym Hours",
+      "output": {
+        "text": {
+          "values": [
+            "The $hotel_amenity is open from 5am to 11pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1544158053014",
+      "metadata": {},
+      "conditions": "$hotel_amenity:gym",
+      "dialog_node": "node_8_1544160011754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1544157974837",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1544158800789",
+      "previous_sibling": "node_1_1544158792294"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hi! What can I do for you?",
+            "Hi! How may I help you?",
+            "Hi! What you would like to do?",
+            "Hello! What can I do for you?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1544157974837",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_1_1544158792294"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1544161650373",
+      "event_name": "focus",
+      "dialog_node": "handler_15_1544161650373",
+      "previous_sibling": "handler_14_1544161650373"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_13_1544161650373",
+      "context": {
+        "hotel_amenity": "@hotel_amenity"
+      },
+      "conditions": "@hotel_amenity",
+      "event_name": "input",
+      "dialog_node": "handler_14_1544161650373"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1544173187596",
+      "context": {
+        "pizza_notoppings": "@pizza_notoppings.values"
+      },
+      "metadata": {},
+      "conditions": "@pizza_notoppings.values",
+      "event_name": "input",
+      "dialog_node": "handler_13_1544173187596",
+      "previous_sibling": "handler_14_1544173187596"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_12_1544173187596",
+      "context": {
+        "texttoppings": "without <? $pizza_notoppings.join(',') ?>"
+      },
+      "metadata": {},
+      "conditions": "$pizza_notoppings",
+      "event_name": "filled",
+      "dialog_node": "handler_33_1544175370475",
+      "previous_sibling": "handler_31_1544175338906"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_12_1544173187596",
+      "context": {
+        "texttoppings": "with   <?   $pizza_toppings.join(',')   ?>   and   without   <? $pizza_notoppings.join(',') ?>"
+      },
+      "metadata": {},
+      "conditions": "$pizza_notoppings && $pizza_toppings",
+      "event_name": "filled",
+      "dialog_node": "handler_31_1544175338906",
+      "previous_sibling": "handler_13_1544173187596"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1544173187596",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1544173187596"
+    },
+    {
+      "type": "standard",
+      "title": "Talk to concierge",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Connect_to_Agent || $unanswer_counter>2",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1544159602768",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1544172964679"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "unanswer_counter": "<? $unanswer_counter +1 ?>"
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "not_available",
+      "dialog_node": "Anything else",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1544159602768"
+    },
+    {
+      "type": "frame",
+      "title": "Pizza Ordering",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#order_pizza",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1544172964679",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_48_1544179067416",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Intents Confidence rate",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "unanswer_counter": 0
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1544157974837"
+      },
+      "conditions": "Intents.confidence>0.2",
+      "digress_in": "not_available",
+      "dialog_node": "node_7_1544159768565",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "text": {
+          "values": [
+            "Hi! What can I do for you?",
+            "Hi! How may I help you?",
+            "Hi! What you would like to do?",
+            "Hello! What can I do for you?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1544157974837",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1544159768565"
+    },
+    {
+      "type": "folder",
+      "title": "Hotel Amenities Management",
+      "metadata": {},
+      "digress_in": "returns",
+      "dialog_node": "node_48_1544179067416",
+      "previous_sibling": "node_1_1544157974837"
+    },
+    {
+      "type": "standard",
+      "title": "start of the conversation",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "conversation_start",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "9db7382b-1c9c-40e8-a37f-fa76991b2c98",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}

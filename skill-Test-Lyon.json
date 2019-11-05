@@ -1172,6 +1172,9 @@
       "intent": "Avocat",
       "examples": [
         {
+          "text": "Date"
+        },
+        {
           "text": "j'ai besoin d'un rendez-vous"
         },
         {
@@ -1192,9 +1195,6 @@
     {
       "intent": "General_Greetings",
       "examples": [
-        {
-          "text": "Est-ce que vous passez une bonne journée?"
-        },
         {
           "text": "J'aime parler. Toi aussi ?"
         },
@@ -1221,6 +1221,9 @@
         },
         {
           "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
         },
         {
           "text": "Tu vas bien ?"
@@ -1274,9 +1277,6 @@
           "text": "Auriez-vous disparu?"
         },
         {
-          "text": "Que se passe-t-il?"
-        },
-        {
           "text": "Pouvez-vous dire quelque chose?"
         },
         {
@@ -1284,6 +1284,9 @@
         },
         {
           "text": "Où êtes-vous parti?"
+        },
+        {
+          "text": "Que se passe-t-il?"
         },
         {
           "text": "Toujours là ?"
@@ -1408,16 +1411,27 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "date d'entrée en vigueur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "heure",
+          "synonyms": [
+            "horaire",
+            "après midi",
+            "matin",
+            "12h",
+            "13h45"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Date",
           "synonyms": [
             "Date de rendez-vous",
             "Date de rencontre"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "date d'entrée en vigueur",
-          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -1462,6 +1476,16 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "sanction",
+          "synonyms": [
+            "infraction",
+            "violation",
+            "non respect",
+            "infrigement"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Texte",
           "synonyms": [
             "GDPR",
@@ -1470,16 +1494,6 @@
             "Protection des données à caractère personnel",
             "données",
             "règlement européen"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "sanction",
-          "synonyms": [
-            "infraction",
-            "violation",
-            "non respect",
-            "infrigement"
           ]
         }
       ],
@@ -1490,7 +1504,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "transparence",
+          "value": "Intégrité",
           "synonyms": []
         },
         {
@@ -1512,7 +1526,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Intégrité",
+          "value": "transparence",
           "synonyms": []
         },
         {
@@ -1561,8 +1575,25 @@
   "dialog_nodes": [
     {
       "type": "standard",
-      "conditions": "#Question_RGPD",
-      "dialog_node": "node_7_1572718941128",
+      "title": "Quand le RGPD est-il entré en vigueur?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le RGPD est entré en vigueur le 25 mai 2018"
+              },
+              {
+                "text": "Avez-vous une autre question?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#about_RGPD",
+      "dialog_node": "node_2_1572631097789",
       "previous_sibling": "node_9_1572629684358"
     },
     {
@@ -1593,14 +1624,14 @@
           {
             "values": [
               {
-                "text": "Très bien, à quelle date souhaitez-vous venir au cabinet ?"
+                "text": "À quelle date souhaitez-vous venir au cabinet ?"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
-            "title": "Propositions date de rendez-vous",
+            "title": "Proposition date de rendez-vous",
             "options": [
               {
                 "label": "Jeudi 14 Novembre",
@@ -1631,9 +1662,21 @@
           }
         ]
       },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1572861308257"
+      },
       "conditions": "#Avocat",
       "dialog_node": "node_8_1572860827562",
       "previous_sibling": "node_4_1572431092112"
+    },
+    {
+      "type": "standard",
+      "title": "Autre question",
+      "conditions": "#",
+      "dialog_node": "node_10_1572948644470",
+      "previous_sibling": "node_4_1572861308257"
     },
     {
       "type": "standard",
@@ -1744,11 +1787,6 @@
           }
         ]
       },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_7_1572718941128"
-      },
       "conditions": "#définition_données",
       "dialog_node": "node_2_1572718416808",
       "previous_sibling": "node_2_1572631097789"
@@ -1772,34 +1810,6 @@
       "conditions": "#traitement_données ||  @données",
       "dialog_node": "node_8_1572717373994",
       "previous_sibling": "node_10_1572631393002"
-    },
-    {
-      "type": "standard",
-      "title": "Quand le RGPD est-il entré en vigueur?",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Le RGPD est entré en vigueur le 25 mai 2018"
-              },
-              {
-                "text": "Avez-vous une autre question?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "multiline"
-          }
-        ]
-      },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_7_1572718941128"
-      },
-      "conditions": "#about_RGPD",
-      "dialog_node": "node_2_1572631097789",
-      "previous_sibling": "node_7_1572718941128"
     },
     {
       "type": "standard",
