@@ -1,0 +1,346 @@
+{
+  "activationId": "042dae201afb4ce1adae201afb4ce156",
+  "annotations": [
+    {
+      "key": "path",
+      "value": "sebastien.gautier@fr.ibm.com_dev/action0"
+    },
+    {
+      "key": "waitTime",
+      "value": 50
+    },
+    {
+      "key": "kind",
+      "value": "nodejs:10"
+    },
+    {
+      "key": "timeout",
+      "value": false
+    },
+    {
+      "key": "limits",
+      "value": {
+        "concurrency": 1,
+        "logs": 10,
+        "memory": 256,
+        "timeout": 60000
+      }
+    }
+  ],
+  "duration": 1641,
+  "end": 1573059412446,
+  "logs": [],
+  "name": "action0",
+  "namespace": "sebastien.gautier@fr.ibm.com_dev",
+  "publish": false,
+  "response": {
+    "result": {
+      "matching_results": 183,
+      "passages": [
+        {
+          "document_id": "ce803bd9c28c50f43b4a71e4439c416a_9",
+          "end_offset": 94,
+          "field": "title",
+          "passage_score": 28.95385294805946,
+          "passage_text": "à caractère personnel. L'ampleur de la collecte et du partage de données à caractère personnel",
+          "start_offset": 0
+        },
+        {
+          "document_id": "ce803bd9c28c50f43b4a71e4439c416a_162",
+          "end_offset": 396,
+          "field": "text",
+          "passage_score": 12.805347582997824,
+          "passage_text": "Le fait que le traitement des données à caractère personnel est limité devrait être indiqué de manière claire dans le fichier. (68) Pour renforcer encore le contrôle qu'elles exercent sur leurs propres données, les personnes concernées devraient aussi avoir le droit, lorsque des données à caractère personnel font l'objet d'un traitement automatisé, de recevoir les données à caractère personnel",
+          "start_offset": 0
+        },
+        {
+          "document_id": "ce803bd9c28c50f43b4a71e4439c416a_181",
+          "end_offset": 990,
+          "field": "text",
+          "passage_score": 12.555945038377551,
+          "passage_text": "ou empêchées d'exercer le contrôle sur leurs données à caractère personnel; lorsque le traitement concerne des données à caractère personnel qui révèlent l'origine raciale ou ethnique, les opinions",
+          "start_offset": 793
+        }
+      ],
+      "results": [
+        {
+          "enriched_text": {
+            "categories": [
+              {
+                "label": "/law, govt and politics",
+                "score": 0.822371
+              },
+              {
+                "label": "/health and fitness/exercise",
+                "score": 0.770606
+              },
+              {
+                "label": "/law, govt and politics/government/government contracting and procurement",
+                "score": 0.738492
+              }
+            ],
+            "concepts": [
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Donnée",
+                "relevance": 0.78941,
+                "text": "Donnée"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Données_personnelles",
+                "relevance": 0.716159,
+                "text": "Données personnelles"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Contrat",
+                "relevance": 0.55786,
+                "text": "Contrat"
+              }
+            ],
+            "entities": [],
+            "sentiment": {
+              "document": {
+                "label": "neutral",
+                "score": 0
+              }
+            }
+          },
+          "extracted_metadata": {
+            "file_type": "pdf",
+            "filename": "CELEX_32016R0679_FR_TXT.pdf",
+            "sha1": "c714ace43f73773e1e3980602bedc020dff7e9f0"
+          },
+          "id": "ce803bd9c28c50f43b4a71e4439c416a_170",
+          "result_metadata": {
+            "confidence": 0.15543972927852093,
+            "score": 2.2769654
+          },
+          "segment_metadata": {
+            "id": "bc1db4a9-b4f0-44b0-ae93-dc8efde8e835",
+            "parent_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "total_segments": 250
+          },
+          "text": "De plus, ce droit ne devrait pas porter atteinte au droit de la personne concernée d'obtenir l'effacement de données à caractère personnel ni aux limitations de ce droit comme le prévoit le présent règlement et il ne devrait pas, notamment, entraîner l'effacement de données à caractère personnel relatives à la personne concernée qui ont été fournies par celle-ci pour l'exécution d'un contrat, dans la mesure où et aussi longtemps que ces données à caractère personnel sont nécessaires à l'exécution de ce contrat. Lorsque c'est techni­ quement possible, la personne concernée devrait avoir le droit d'obtenir que les données soient transmises directement d'un responsable du traitement à un autre. (69) Lorsque des données à caractère personnel pourraient être traitées de manière licite parce que le traitement est nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement, ou en raison des intérêts légitimes du responsable du traitement ou d'un tiers, les personnes concernées devraient néanmoins avoir le droit de s'opposer au traitement de toute donnée à caractère personnel en rapport avec leur situation particulière."
+        },
+        {
+          "enriched_text": {
+            "categories": [
+              {
+                "label": "/technology and computing/software/databases",
+                "score": 0.810745
+              },
+              {
+                "label": "/technology and computing/internet technology",
+                "score": 0.766596
+              },
+              {
+                "label": "/technology and computing/hardware/computer peripherals",
+                "score": 0.740204
+              }
+            ],
+            "concepts": [
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Donnée",
+                "relevance": 0.763252,
+                "text": "Donnée"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Traçabilité",
+                "relevance": 0.530384,
+                "text": "Traçabilité"
+              }
+            ],
+            "entities": [],
+            "sentiment": {
+              "document": {
+                "label": "neutral",
+                "score": 0
+              }
+            }
+          },
+          "extracted_metadata": {
+            "file_type": "pdf",
+            "filename": "CELEX_32016R0679_FR_TXT.pdf",
+            "sha1": "c714ace43f73773e1e3980602bedc020dff7e9f0"
+          },
+          "id": "ce803bd9c28c50f43b4a71e4439c416a_185",
+          "result_metadata": {
+            "confidence": 0.14576388025167605,
+            "score": 2.243474
+          },
+          "segment_metadata": {
+            "id": "95d7fc95-329f-472f-98a1-0b4955984047",
+            "parent_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "total_segments": 250
+          },
+          "text": "Ces mesures pourraient consister, entre autres, à réduire à un minimum le traitement des données à caractère personnel, à pseudonymiser les données à caractère personnel dès que possible, à garantir la transparence en ce qui concerne les fonctions et le traitement des données à caractère personnel, à permettre à la personne concernée de contrôler le traitement des données, à permettre au responsable du traitement de mettre en place des dispositifs de sécurité ou de les améliorer."
+        },
+        {
+          "enriched_text": {
+            "categories": [
+              {
+                "label": "/law, govt and politics",
+                "score": 0.87223
+              },
+              {
+                "label": "/law, govt and politics/government/government contracting and procurement",
+                "score": 0.783041
+              },
+              {
+                "label": "/law, govt and politics/government/legislative",
+                "score": 0.699473
+              }
+            ],
+            "concepts": [
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/État",
+                "relevance": 0.900387,
+                "text": "État"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Liberté_de_circulation",
+                "relevance": 0.885083,
+                "text": "Liberté de circulation"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Traité_sur_le_fonctionnement_de_l'Union_européenne",
+                "relevance": 0.836752,
+                "text": "Traité sur le fonctionnement de l'Union européenne"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Surveillance",
+                "relevance": 0.806063,
+                "text": "Surveillance"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Données_personnelles",
+                "relevance": 0.782406,
+                "text": "Données personnelles"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/États_membres_de_l'Union_européenne",
+                "relevance": 0.776682,
+                "text": "États membres de l'Union européenne"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Europe",
+                "relevance": 0.760197,
+                "text": "Europe"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Journal_officiel_de_l'Union_européenne",
+                "relevance": 0.749206,
+                "text": "Journal officiel de l'Union européenne"
+              }
+            ],
+            "entities": [
+              {
+                "count": 1,
+                "relevance": 0.953262,
+                "sentiment": {
+                  "label": "neutral",
+                  "score": 0
+                },
+                "text": "l'Union européenne FR",
+                "type": "Organization"
+              },
+              {
+                "count": 2,
+                "disambiguation": {
+                  "subtype": [
+                    "Continent"
+                  ]
+                },
+                "relevance": 0.772555,
+                "sentiment": {
+                  "label": "neutral",
+                  "score": 0
+                },
+                "text": "l'Union",
+                "type": "Location"
+              },
+              {
+                "count": 1,
+                "relevance": 0.692174,
+                "sentiment": {
+                  "label": "neutral",
+                  "score": 0
+                },
+                "text": "l'Union européenne",
+                "type": "Organization"
+              },
+              {
+                "count": 1,
+                "relevance": 0.675026,
+                "sentiment": {
+                  "label": "neutral",
+                  "score": 0
+                },
+                "text": "Parlement européen",
+                "type": "Organization"
+              },
+              {
+                "count": 1,
+                "relevance": 0.501513,
+                "sentiment": {
+                  "label": "neutral",
+                  "score": 0
+                },
+                "text": "Journal",
+                "type": "PrintMedia"
+              },
+              {
+                "count": 1,
+                "disambiguation": {
+                  "dbpedia_resource": "http://fr.dbpedia.org/resource/Conseil_de_l'Union_européenne",
+                  "name": "Conseil de l'Union européenne",
+                  "subtype": [
+                    "GovernmentalBody"
+                  ]
+                },
+                "relevance": 0.301443,
+                "sentiment": {
+                  "label": "neutral",
+                  "score": 0
+                },
+                "text": "Conseil",
+                "type": "Organization"
+              }
+            ],
+            "sentiment": {
+              "document": {
+                "label": "neutral",
+                "score": 0
+              }
+            }
+          },
+          "extracted_metadata": {
+            "file_type": "pdf",
+            "filename": "CELEX_32016R0679_FR_TXT.pdf",
+            "sha1": "c714ace43f73773e1e3980602bedc020dff7e9f0"
+          },
+          "id": "ce803bd9c28c50f43b4a71e4439c416a_22",
+          "result_metadata": {
+            "confidence": 0.1366292667529635,
+            "score": 2.211856
+          },
+          "segment_metadata": {
+            "id": "c4c52521-4e86-401b-b4f5-c9e1afc74796",
+            "parent_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "total_segments": 250
+          },
+          "text": "4.5.2016 L 119/2 Journal officiel de l'Union européenne FR (11) Une protection effective des données à caractère personnel dans l'ensemble de l'Union exige de renforcer et de préciser les droits des personnes concernées et les obligations de ceux qui effectuent et déterminent le traitement des données à caractère personnel, ainsi que de prévoir, dans les États membres, des pouvoirs équivalents de surveillance et de contrôle du respect des règles relatives à la protection des données à caractère personnel et des sanctions équivalentes pour les violations. (12) L'article 16, paragraphe 2, du traité sur le fonctionnement de l'Union européenne donne mandat au Parlement européen et au Conseil pour fixer les règles relatives à la protection des personnes physiques à l'égard du traitement des données à caractère personnel ainsi que les règles relatives à la libre circulation des données à caractère personnel. (13) Afin d'assurer un niveau cohérent de protection des personnes physiques dans l'ensemble de l'Union, et d'éviter que des divergences n'entravent la libre circulation des données à caractère personnel au sein du marché intérieur, un règlement est nécessaire pour garantir la sécurité juridique et la transparence aux opérateurs économiques, y compris les micro, petites et moyennes entreprises, pour offrir aux personnes physiques de tous les États membres un même niveau de droits opposables et d'obligations et de responsabilités pour les responsables du traitement et les sous-traitants, et pour assurer une surveillance cohérente du traitement des données à caractère personnel, et des sanctions équivalentes dans tous les États membres, ainsi qu'une coopération efficace entre les autorités de contrôle des différents États membres."
+        }
+      ],
+      "retrieval_details": {
+        "document_retrieval_strategy": "untrained"
+      },
+      "session_token": "1_ypncoVPEPZ6i2084_8xRxLc7Is"
+    },
+    "size": 9490,
+    "status": "success",
+    "success": true
+  },
+  "start": 1573059410805,
+  "subject": "sebastien.gautier@fr.ibm.com",
+  "version": "0.0.1"
+}

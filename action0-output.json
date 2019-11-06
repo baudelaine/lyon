@@ -1,0 +1,229 @@
+{
+  "activationId": "f123a12ad025423ba3a12ad025423bb4",
+  "annotations": [
+    {
+      "key": "path",
+      "value": "sebastien.gautier@fr.ibm.com_dev/action0"
+    },
+    {
+      "key": "waitTime",
+      "value": 32
+    },
+    {
+      "key": "kind",
+      "value": "nodejs:10"
+    },
+    {
+      "key": "timeout",
+      "value": false
+    },
+    {
+      "key": "limits",
+      "value": {
+        "concurrency": 1,
+        "logs": 10,
+        "memory": 256,
+        "timeout": 60000
+      }
+    }
+  ],
+  "duration": 1704,
+  "end": 1573048550334,
+  "logs": [],
+  "name": "action0",
+  "namespace": "sebastien.gautier@fr.ibm.com_dev",
+  "publish": false,
+  "response": {
+    "result": {
+      "matching_results": 250,
+      "passages": [],
+      "results": [
+        {
+          "enriched_text": {
+            "categories": [
+              {
+                "label": "/technology and computing/hardware/computer peripherals",
+                "score": 0.854438
+              },
+              {
+                "label": "/technology and computing/hardware/computer components/disks",
+                "score": 0.649628
+              },
+              {
+                "label": "/technology and computing/hardware/computer",
+                "score": 0.634145
+              }
+            ],
+            "concepts": [],
+            "entities": [],
+            "sentiment": {
+              "document": {
+                "label": "neutral",
+                "score": 0
+              }
+            }
+          },
+          "extracted_metadata": {
+            "file_type": "pdf",
+            "filename": "CELEX_32016R0679_FR_TXT.pdf",
+            "sha1": "c714ace43f73773e1e3980602bedc020dff7e9f0"
+          },
+          "id": "ce803bd9c28c50f43b4a71e4439c416a_59",
+          "result_metadata": {
+            "score": 1
+          },
+          "segment_metadata": {
+            "id": "dbde0742-68c0-4f56-b300-d73a1d94623a",
+            "parent_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "total_segments": 250
+          },
+          "text": "Le responsable du traitement qui traite les données à caractère personnel devrait indiquer les personnes autorisées à cet effet chez un même responsable du traitement."
+        },
+        {
+          "enriched_text": {
+            "categories": [
+              {
+                "label": "/technology and computing/internet technology",
+                "score": 0.84899
+              },
+              {
+                "label": "/law, govt and politics",
+                "score": 0.741246
+              },
+              {
+                "label": "/technology and computing/computer crime",
+                "score": 0.73832
+              }
+            ],
+            "concepts": [
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Information",
+                "relevance": 0.68374,
+                "text": "Information"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Expérience",
+                "relevance": 0.574426,
+                "text": "Expérience"
+              }
+            ],
+            "entities": [],
+            "sentiment": {
+              "document": {
+                "label": "neutral",
+                "score": 0
+              }
+            }
+          },
+          "extracted_metadata": {
+            "file_type": "pdf",
+            "filename": "CELEX_32016R0679_FR_TXT.pdf",
+            "sha1": "c714ace43f73773e1e3980602bedc020dff7e9f0"
+          },
+          "id": "ce803bd9c28c50f43b4a71e4439c416a_55",
+          "result_metadata": {
+            "score": 1
+          },
+          "segment_metadata": {
+            "id": "98241bb0-6efa-4aa4-a0fd-3ad483a5339a",
+            "parent_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "total_segments": 250
+          },
+          "text": "Il n'y a dès lors pas lieu d'appliquer les principes relatifs à la protection des données aux informations anonymes, à savoir les informations ne concernant pas une personne physique identifiée ou identifiable, ni aux données à caractère personnel rendues anonymes de telle manière que la personne concernée ne soit pas ou plus identifiable."
+        },
+        {
+          "enriched_text": {
+            "categories": [
+              {
+                "label": "/technology and computing/internet technology",
+                "score": 0.885061
+              },
+              {
+                "label": "/technology and computing/enterprise technology",
+                "score": 0.847928
+              },
+              {
+                "label": "/education/homework and study tips",
+                "score": 0.704609
+              }
+            ],
+            "concepts": [
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Physique",
+                "relevance": 0.98713,
+                "text": "Physique"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Temps",
+                "relevance": 0.966385,
+                "text": "Temps"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Moment_cinétique_(mécanique_classique)",
+                "relevance": 0.699614,
+                "text": "Moment cinétique"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Rémunération",
+                "relevance": 0.666359,
+                "text": "Rémunération"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Marketing",
+                "relevance": 0.611392,
+                "text": "Marketing"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Mécanique_(science)",
+                "relevance": 0.559374,
+                "text": "Mécanique"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Économie",
+                "relevance": 0.544813,
+                "text": "Économie"
+              },
+              {
+                "dbpedia_resource": "http://fr.dbpedia.org/resource/Comptabilité_analytique",
+                "relevance": 0.542666,
+                "text": "Comptabilité analytique"
+              }
+            ],
+            "entities": [],
+            "sentiment": {
+              "document": {
+                "label": "neutral",
+                "score": 0
+              }
+            }
+          },
+          "extracted_metadata": {
+            "file_type": "pdf",
+            "filename": "CELEX_32016R0679_FR_TXT.pdf",
+            "sha1": "c714ace43f73773e1e3980602bedc020dff7e9f0"
+          },
+          "id": "ce803bd9c28c50f43b4a71e4439c416a_54",
+          "result_metadata": {
+            "score": 1
+          },
+          "segment_metadata": {
+            "id": "6666a003-537b-474e-bb71-9a693cf81597",
+            "parent_id": "ce803bd9c28c50f43b4a71e4439c416a",
+            "total_segments": 250
+          },
+          "text": "Pour établir si des moyens sont raisonnablement susceptibles d'être utilisés pour identifier une personne physique, il convient de prendre en considération l'ensemble des facteurs objectifs, tels que le coût de l'identification et le temps nécessaire à celle-ci, en tenant compte des technologies disponibles au moment du traitement et de l'évolution de celles-ci."
+        }
+      ],
+      "retrieval_details": {
+        "document_retrieval_strategy": "untrained"
+      },
+      "session_token": "1_ypncoVPEPZ6Njqo3_8DRO1i2Dh"
+    },
+    "size": 4201,
+    "status": "success",
+    "success": true
+  },
+  "start": 1573048548630,
+  "subject": "sebastien.gautier@fr.ibm.com",
+  "version": "0.0.1"
+}
