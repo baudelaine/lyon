@@ -1,0 +1,32 @@
+Here is a random entity:
+<? entities[(entities.size() * T(java.lang.Math).random()).intValue()].value ?>
+
+<? input.text.toUpperCase().contains('MARDI')? context.jour='mardi': null ?>
+
+<? input.text.toUpperCase().contains('JEUDI')? context.jour='jeudi': null ?>
+
+<? input.text.toUpperCase().find('MARDI|JEUDI') ? context.jour=input.text.toLowerCase().extract('(mardi|jeudi)', 0): null ?>
+
+All of <? entities.size() ?> entities: <? entities ?>. They include "sys-location" (<? entities['sys-location'] ?>), "sys-time" (<? entities['sys-time'] ?>), "sys-date" (<? entities['sys-date'] ?>), "sys-number" (<? entities['sys-number'] ?>), "sys-person" (<? entities['sys-person'] ?>) and more...
+
+// KO
+"sys-time" (<? entities['sys-time'].reformatDateTime('h a') ?>)
+
+<? entities['sys-time'] && entities['sys-time'].size()==1 && entities['sys-time'][0].value=='14:00:00'? context.heure='10h': null ?>
+
+<? entities['sys-date'] && entities['sys-date'].size()==1 && context.jours.contains(entities['sys-date'][0].value)? context.jour="blabla": null ?>
+
+<? entities['sys-date'] && entities['sys-date'].size()==1 && context.jours.contains(entities['sys-date'][0].value.reformatDateTime('u'))? context.jour=entities['sys-date'][0].value: null ?>
+
+<? entities['sys-date'] && entities['sys-date'].size()==1 && context.jours.contains(entities['sys-date'][0].value.reformatDateTime('E'))? context.jour=entities['sys-date'][0].value.reformatDateTime('E dd MMMM'): null ?>
+
+<? entities['sys-time'] && entities['sys-time'].size()==1 && context.heures.contains(entities['sys-time'][0].value.reformatDateTime('h'))? context.heure=entities['sys-time'][0].value.reformatDateTime('h') + 'h': null ?>
+
+context.jours.contains('mardi')? context.jour='mardi': null
+
+{
+  "context":{
+    "jours": ["mardi", "jeudi"],
+    "heures": ["10:00:00", "14:00:00"]
+  }
+}
